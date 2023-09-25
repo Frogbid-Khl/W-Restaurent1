@@ -9340,7 +9340,7 @@ body {
   line-height: 1.6;
   color: #666666;
   font-size: 1rem;
-  font-family: var(--font-family-base); }
+  font-family: Tajawal-Black; }
   @media only screen and (max-width: 575px) {
     body {
       font-size: 15px; } }
@@ -9360,7 +9360,7 @@ h6 a,
   color: var(--title); }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, .wp-block-search .wp-block-search__label, h5, .h5, h6, .h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: var(--font-family-title);
+  font-family: Tajawal-Bold;
   color: var(--title); }
 
 h1, .h1,
@@ -11504,7 +11504,7 @@ section {
     font-size: 60px;
     line-height: 1;
     font-style: normal;
-    font-family: Lobster; }
+    font-family: Tajawal-Bold; }
     @media only screen and (max-width: 1280px) {
       .section-head h2.title, .section-head .title.h2 {
         font-size: 50px;
@@ -12162,7 +12162,7 @@ section {
         color: #071c35;
         font-size: 18px;
         padding: 40px 15px;
-        font-family: var(--font-family-base);
+        font-family: FuturaLT-Bold;
         cursor: pointer;
         font-weight: 500;
         display: inline-block;
@@ -12471,7 +12471,7 @@ section {
   width: 100%; }
   .header-transparent .top-bar,
   .header-transparent .main-bar {
-    background: transparent; }
+    /*background: transparent; */}
   .header-transparent .container-fluid, .header-transparent .container-sm, .header-transparent .container-md, .header-transparent .container-lg, .header-transparent .container-xl {
     padding-left: 80px;
     padding-right: 80px; }
@@ -13077,7 +13077,7 @@ section {
   font-size: 70px;
   line-height: 1.2;
   margin-bottom: 20px;
-  font-family: 'Lobster'; }
+  font-family: 'Tajawal-Bold'; }
   @media only screen and (max-width: 1480px) {
     .dz-bnr-inr.style-1 h1, .dz-bnr-inr.style-1 .h1 {
       font-size: 60px; } }

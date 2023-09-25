@@ -4,7 +4,7 @@
 <head>
 
     <!-- Title -->
-    <title>Restaurant Website Templates | Swigo - Empowering Your Food Business | DexignZone</title>
+    <title>Restaurant Website </title>
 
 
     <?php
@@ -12,98 +12,14 @@
     ?>
 </head>
 <body id="bg">
-<?php
-include ('include/preloader.php')
-?>
+
 
 <div class="page-wraper">
 
     <!-- Header -->
-    <header class="site-header mo-left header header-transparent transparent-white style-2">
-        <!-- Main Header -->
-        <div class="sticky-header main-bar-wraper navbar-expand-lg">
-            <div class="main-bar clearfix ">
-                <div class="container-fluid clearfix">
-
-                    <!-- Website Logo -->
-                    <div class="logo-header mostion">
-                        <a href="index.html" class="anim-logo"><img src="assets/images/logo.png" alt="/"></a>
-                    </div>
-
-                    <!-- Nav Toggle Button -->
-                    <button class="navbar-toggler navbar-toggler navbar-toggler collapsed navicon justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-
-                    <!-- EXTRA NAV -->
-                    <div class="extra-nav">
-                        <div class="extra-cell">
-                            <form method="post">
-                                <div class="input-group">
-                                    <input required="required" type="text" class="form-control" placeholder="Search">
-                                    <div class="input-group-addon">
-                                        <button name="submit" value="submit" type="submit" class="btn btn-primary btn-hover-2">
-                                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                            <div class="menu-btn">
-                                <a href="javascript:void(0);">
-                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M4.04102 17.3984H29.041" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M4.04102 8.39844H29.541" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M4.04102 25.3984H29.041" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- EXTRA NAV -->
-                    <!-- Header Nav -->
-                    <div class="header-nav navbar-collapse collapse justify-content-center" id="navbarNavDropdown">
-                        <div class="logo-header">
-                            <a href="index.html" class="anim-logo"><img src="assets/images/logo.png" alt="/"></a>
-                        </div>
-                        <ul class="nav navbar-nav navbar navbar-left">
-                            <li class=""><a href="javascript:void(0);">Home</a>
-                            </li>
-                            <li class="sub-menu-down"><a href="javascript:void(0);"> Restaurant</a>
-                                <ul class="sub-menu">
-                                    <li><a href="shop-style-1.html"> Pak Loh</a></li>
-                                    <li><a href="shop-style-2.html">Moon Lok</a></li>
-                                </ul>
-                            </li>
-                            <li class="sub-menu-down"><a href="javascript:void(0);"> Menu</a>
-                                <ul class="sub-menu">
-                                    <li><a href="shop-style-1.html"> Pak Loh</a></li>
-                                    <li><a href="shop-style-2.html">Moon Lok</a></li>
-                                </ul>
-                            </li>
-                            <li class=""><a href="javascript:void(0);">News</a>
-                            </li>
-                            <li class=""><a href="javascript:void(0);">Press </a>
-                            </li>
-                            <li class=""><a href="javascript:void(0);">Eshop </a>
-                            </li>
-                            <li><a href="contact-us.html">Contact Us</a></li>
-                        </ul>
-                        <div class="dz-social-icon">
-                            <ul>
-                                <li><a target="_blank" class="fab fa-facebook-f" href="https://www.facebook.com/"></a></li>
-                                <li><a target="_blank" class="fab fa-twitter" href="https://twitter.com/"></a></li>
-                                <li><a target="_blank" class="fab fa-linkedin-in" href="https://www.linkedin.com/"></a></li>
-                                <li><a target="_blank" class="fab fa-instagram" href="https://www.instagram.com/"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Main Header End -->
-    </header>
+    <?php
+    include ('include/header2.php')
+    ?>
     <!-- Header -->
 
     <div class="contact-sidebar">
@@ -146,15 +62,12 @@ include ('include/preloader.php')
     </div>
     <div class="menu-close"></div>
 
-    <div class="page-content bg-white">
+    <div class="page-content bg-white container-fluid">
         <!-- Banner -->
+
         <div class="main-bnr-three overflow-hidden top-space">
-            <div class="swiper-bnr-pagination left-align">
-                <div class="main-button-prev"><i class="icon-arrow-up"></i></div>
-                <div class="main-swiper3-pagination"></div>
-                <div class="main-button-next"><i class="icon-arrow-down"></i></div>
-            </div>
-            <div class="main-slider-3">
+
+            <div class="main-slider-3 " style="margin-left: 30px; margin-right: 100px ;">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="banner-inner overflow-hidden" data-swiper-parallax="-10" data-swiper-parallax-duration="0.5" style="background-image:url('assets/images/main-slider/slider2/bg1.jpg'); background-size:cover;">
@@ -191,7 +104,7 @@ include ('include/preloader.php')
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="banner-inner overflow-hidden" data-swiper-parallax="-10" data-swiper-parallax-duration="0.5" style="background-image:url('assets/images/main-slider/slider2/bg3.jpg'); background-size:cover;">
+                        <div class="banner-inner overflow-hidden" style="background-image:url('assets/images/main-slider/slider2/bg3.jpg'); background-size:cover;">
                             <div class="container">
                                 <div class="row align-items-center" data-swiper-parallax="-100">
                                     <div class="col-xl-7 col-lg-7 col-md-8">
@@ -211,7 +124,7 @@ include ('include/preloader.php')
             </div>
         </div>
         <!--Banner-->
-        <section class="section-wrapper-5 content-inner overflow-hidden bg-parallax mt-lg-5" style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
+        <section class="section-wrapper-5 content-inner overflow-hidden  mt-lg-5" style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
             <div class="container -5">
                 <div class="section-head text-center text-white">
                     <h6 class="title wow flipInX text-white fs-2">CHINESOLOGY–REDEFINE CHINESE CUISINES</h6>
@@ -246,7 +159,7 @@ include ('include/preloader.php')
                                     <li><strong>Responsibility:</strong>Senior Chef</li>
                                     <li><strong>Experience:</strong>10 Year</li>
                                     <li><strong>Email:</strong>Example@gmail.com</li>
-                                    <li><strong>Phone:</strong>+22 33 56 7675 8939</li>
+                                    <li><strong>Phone:</strong>+33 44 3333 4444</li>
                                 </ul>
                                 <div class="dz-social-icon">
                                     <ul>
@@ -362,7 +275,7 @@ include ('include/preloader.php')
         <!-- Browser Our Menu -->
 
 
-        <section class="content-inner-1 overflow-hidden pt-0">
+  <!--      <section class="content-inner-1 overflow-hidden pt-0">
             <div class="container mt-lg-5 ">
                 <div class="section-head menu-align">
                     <h2 class="title mb-0 wow flipInX " data-wow-delay="0.2s" data-wow-delay="2s">Browse Our Menu</h2>
@@ -522,7 +435,7 @@ include ('include/preloader.php')
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
 
         <!-- Browser Our Menu -->
@@ -535,74 +448,30 @@ include ('include/preloader.php')
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="dz-img-box style-5">
-                            <div class="dz-content">
-                                <div class="weight">
-                                    <span>Pizza</span>
-                                    <span>756g</span>
-                                </div>
-                                <div class="price">
-                                    <h6>Pepperoni</h6>
-                                    <h6 class="text-primary">$15.00</h6>
-                                </div>
-                            </div>
+                        <div class="">
                             <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic1.jpg" alt="/">
-                                <a class="detail-btn" href="our-menu-1.html"><i class="fa-solid fa-plus"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="dz-img-box style-5">
-                            <div class="dz-content">
-                                <div class="weight">
-                                    <span>Pancake</span>
-                                    <span>756g</span>
-                                </div>
-                                <div class="price">
-                                    <h6>Pancake stack</h6>
-                                    <h6 class="text-primary">$18.00</h6>
-                                </div>
-                            </div>
+                        <div class="">
                             <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic2.jpg" alt="/">
-                                <a class="detail-btn" href="our-menu-1.html"><i class="fa-solid fa-plus"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="dz-img-box style-5">
-                            <div class="dz-content">
-                                <div class="weight">
-                                    <span>Salad</span>
-                                    <span>756g</span>
-                                </div>
-                                <div class="price">
-                                    <h6>Halumini</h6>
-                                    <h6 class="text-primary">$10.00</h6>
-                                </div>
-                            </div>
-                            <div class="dz-media">
+                        <div class="">
+                            <div class="">
                                 <img src="assets/images/gallery/grid3/pic3.jpg" alt="/">
-                                <a class="detail-btn" href="our-menu-1.html"><i class="fa-solid fa-plus"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.10s">
-                        <div class="dz-img-box style-5">
-                            <div class="dz-content">
-                                <div class="weight">
-                                    <span>Egg</span>
-                                    <span>756g</span>
-                                </div>
-                                <div class="price">
-                                    <h6>Eggs</h6>
-                                    <h6 class="text-primary">$12.00</h6>
-                                </div>
-                            </div>
+                        <div class="">
                             <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic4.jpg" alt="/">
-                                <a class="detail-btn" href="our-menu-1.html"><i class="fa-solid fa-plus"></i></a>
                             </div>
                         </div>
                     </div>
@@ -612,7 +481,7 @@ include ('include/preloader.php')
         <!--Today's Special-->
 
         <!-- Are Menu-->
-        <section class="content-inner-1">
+   <!--     <section class="content-inner-1">
             <div class="container">
                 <div class="section-head text-center">
                     <h2 class="title wow flipInX" data-wow-delay="0.2s" data-wow-delay="2s">Are Menu</h2>
@@ -773,11 +642,11 @@ include ('include/preloader.php')
                     </ul>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!-- Are Menu-->
 
         <!-- Team Section 1 -->
-        <section class="section-wrapper-4 content-inner overflow-hidden bg-parallax" style="background-image:url('assets/images/background/pic10.png'); background-attachment: fixed;">
+  <!--      <section class="section-wrapper-4 content-inner overflow-hidden bg-parallax" style="background-image:url('assets/images/background/pic10.png'); background-attachment: fixed;">
             <div class="container">
                 <div class="section-head text-center">
                     <h2 class="title wow flipInX" data-wow-delay="0.2s">Meet The</h2>
@@ -983,7 +852,7 @@ include ('include/preloader.php')
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!-- Team Section 1 -->
 
 
@@ -991,118 +860,9 @@ include ('include/preloader.php')
     </div>
 
     <!--Footer-->
-    <footer class="site-footer style-2" id="footer">
-        <div class="footer-bg-wrapper" id="app-banner">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="footer-subscribe-wrapper">
-                        <div class="wrapper-inner">
-                            <div class="row justify-content-between">
-                                <div class="col-xl-4 col-lg-4 m-lg-0 m-b20 wow fadeInUp" data-wow-delay="0.4s">
-                                    <div class="footer-logo">
-                                        <a href="index.html" class="anim-logo-white">
-                                            <img src="assets/images/logo2.png" alt="/">
-                                        </a>
-                                    </div>
-                                    <p class="text-white mb-0 font-14">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                </div>
-                                <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-                                    <h4 class="text-white title m-b15">Subscribe To Our Newsletter</h4>
-                                    <form class="dzSubscribe" action="https://swigo.w3itexpert.com/xhtml/assets/script/mailchamp.php" method="post">
-                                        <div class="dzSubscribeMsg text-white"></div>
-                                        <div class="input-group">
-                                            <input name="dzEmail" required="required" type="text" class="form-control" placeholder="Enter Your Email">
-                                            <div class="input-group-addon">
-                                                <button name="submit" value="submit" type="submit" class="btn btn-primary btn-hover-2">
-                                                    <span>Subscribe</span><i class="fa-solid fa-paper-plane"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="widget widget_getintuch">
-                                <h5 class="footer-title">Contact</h5>
-                                <ul>
-                                    <li>
-                                        <i class="flaticon-placeholder"></i>
-                                        <p>1247/Plot No. 39, 15th Phase, Colony, Kkatpally, Hyderabad</p>
-                                    </li>
-                                    <li>
-                                        <i class="flaticon-telephone"></i>
-                                        <p>+91 987-654-3210<br>
-                                            +91 123-456-7890</p>
-                                    </li>
-                                    <li>
-                                        <i class="flaticon-email-1"></i>
-                                        <p>info@example.com<br>
-                                            info@example.com</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-2 col-md-6 col-sm-6">
-                            <div class="widget widget_services">
-                                <h5 class="footer-title">Our Links</h5>
-                                <ul>
-                                    <li><a href="index.html"><span>Home</span></a></li>
-                                    <li><a href="about-us.html"><span>About Us</span></a></li>
-                                    <li><a href="services.html"><span>Services</span></a></li>
-                                    <li><a href="team.html"><span>Team</span></a></li>
-                                    <li><a href="blog-standard.html"><span>Blog</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                            <div class="widget widget_services">
-                                <h5 class="footer-title">OUR SERVICES</h5>
-                                <ul>
-                                    <li><a href="blog-open-gutenberg.html"><span>Strategy & Research</span></a></li>
-                                    <li><a href="services.html"><span>Fast Delivery</span></a></li>
-                                    <li><a href="contact-us.html"><span>Seat Reservation</span></a></li>
-                                    <li><a href="shop-style-1.html"><span>Pickup In Store</span></a></li>
-                                    <li><a href="our-menu-1.html"><span>Our Menu</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6	">
-                            <div class="widget widget_services">
-                                <h5 class="footer-title">Help Center</h5>
-                                <ul>
-                                    <li><a href="faq.html"><span>FAQ</span></a></li>
-                                    <li><a href="shop-style-1.html"><span>Shop</span></a></li>
-                                    <li><a href="shop-style-2.html"><span>Category Filter</span></a></li>
-                                    <li><a href="testimonial.html"><span>Testimonials</span></a></li>
-                                    <li><a href="contact-us.html"><span>Contact Us</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer Bottom Part -->
-        <div class="container">
-            <div class="footer-bottom">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6">
-                        <span class="copyright-text">Copyright © 2023 <a href="https://dexignzone.com/" target="_blank">DexignZone</a>. All rights reserved.</span>
-                    </div>
-                    <div class="col-xl-6 col-lg-6">
-                        <ul class="footer-link">
-                            <li><a href="blog-standard.html">Blog Detail</a></li>
-                            <li><a href="about-us.html">About</a></li>
-                            <li><a href="testimonial.html">Testimonials</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php
+    include ('include/footer.php')
+    ?>
     <!-- Footer -->
 
     <div class="scroltop-progress scroltop-primary">
