@@ -70,9 +70,9 @@
     </div>
     <div class="menu-close"></div>
 
-    <div class="page-content bg-white mt-lg-5">
+    <div class="page-content bg-white mt-5">
 
-        <section class="section-wrapper-5 content-inner overflow-hidden  mt-lg-5"
+        <section class="section-wrapper-5 content-inner overflow-hidden  mt-5"
                  style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
             <div class="container -5">
                 <div class="section-head text-center text-white">
@@ -94,7 +94,7 @@
         </section>
         <!-- Chef Details start-->
         <section>
-            <div class="container mt-lg-5">
+            <div class="container mt-5">
                 <div class="row">
                     <div class="col-12">
                         <div class="team-detail">
@@ -403,37 +403,36 @@
 
         <!-- Browser Our Menu -->
 
+
         <!--Today's Special-->
-        <section class="section-wrapper-5 content-inner overflow-hidden bg-parallax"
-                 style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
+        <section class="section-wrapper-5 content-inner overflow-hidden bg-parallax" style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
             <div class="container">
                 <div class="section-head text-center">
-                    <h2 class="title text-white wow flipInX" data-wow-delay="0.2s" data-wow-delay="2s">Today's
-                        Special</h2>
+                    <h2 class="title text-white wow flipInX" data-wow-delay="0.2s" data-wow-delay="2s">Today's Special</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="">
                             <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic1.jpg" alt="/">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="">
                             <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic2.jpg" alt="/">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="">
                             <div class="">
                                 <img src="assets/images/gallery/grid3/pic3.jpg" alt="/">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.10s">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.10s">
                         <div class="">
                             <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic4.jpg" alt="/">

@@ -67,23 +67,27 @@
 
         <div class="main-bnr-three overflow-hidden top-space">
 
-            <div class="main-slider-3 " style="margin-left: 30px; margin-right: 100px ;">
+            <div class="main-slider-3 " >
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="banner-inner overflow-hidden" data-swiper-parallax="-10" data-swiper-parallax-duration="0.5" style="background-image:url('assets/images/main-slider/slider2/bg1.jpg'); background-size:cover;">
                             <div class="container">
                                 <div class="row align-items-center" data-swiper-parallax="-100">
                                     <div class="col-xl-7 col-lg-7 col-md-8">
-
+                                        <div class="banner-content">
+                                            <span class="sub-title text-primary">The Best Food Stations</span>
+                                            <h1 class="title text-white">Bringing Joy to Your Plate With Food </h1>
+                                            <p class="bnr-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
                                     </div>
                                     <div class="col-xl-5 col-lg-5 col-md-4">
+
                                         <div class="banner-media">
                                             <img src="assets/images/main-slider/slider2/pic1.png" alt="/" data-swiper-parallax-scale="0.8">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <img class="leaf" src="assets/images/main-slider/slider2/pic4.png" alt="/">
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -91,7 +95,17 @@
                             <div class="container">
                                 <div class="row align-items-center" data-swiper-parallax="-100">
                                     <div class="col-xl-7 col-lg-7 col-md-8">
+                                        <div class="banner-content">
+                                            <span class="sub-title text-primary">High Quality Test Station </span>
+                                            <h1 class="title text-white">We believe Good Food Offer Great Smile </h1>
+                                            <p class="bnr-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
+                                      <!--      <div class="banner-btn d-flex align-items-center">
+                                                <a href="contact-us.php" class="btn btn-primary btn-md shadow-primary m-r30 btn-hover-1"><span>Book a Table</span></a>
+                                                <a href="about-us.html" class="btn btn-outline-primary btn-md shadow-primary btn-hover-1"><span>View More</span></a>
+                                            </div>-->
+
+                                        </div>
                                     </div>
                                     <div class="col-xl-5 col-lg-5 col-md-4">
                                         <div class="banner-media">
@@ -100,7 +114,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <img class="leaf" src="assets/images/main-slider/slider2/pic4.png" alt="/">
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -108,7 +121,12 @@
                             <div class="container">
                                 <div class="row align-items-center" data-swiper-parallax="-100">
                                     <div class="col-xl-7 col-lg-7 col-md-8">
+                                        <div class="banner-content">
+                                            <span class="sub-title text-primary">Exploring the Delicious World</span>
+                                            <h1 class="title text-white">Food that Makes You Happy And Healthy</h1>
+                                            <p class="bnr-text ow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
+                                        </div>
                                     </div>
                                     <div class="col-xl-5 col-lg-5 col-md-4">
                                         <div class="banner-media">
@@ -117,15 +135,31 @@
                                     </div>
                                 </div>
                             </div>
-                            <img class="leaf" src="assets/images/main-slider/slider2/pic4.png" alt="/">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!--Banner-->
-        <section class="section-wrapper-5 content-inner overflow-hidden  mt-lg-5" style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
-            <div class="container -5">
+        <!-- Banner  -->
+        <div class=" container mt-3 "  style="background-image:url('assets/images/main-slider/slider2/bg2.jpg')  ;border-radius: 2rem; background-size:cover;">
+            <div class="container-fluid " style="    height: 500px">
+                <div class="dz-bnr-inr-entry justify-content-center">
+                    <h6 class="title wow flipInX text-white fs-2 pt-5 text-center">CHINESOLOGY–REDEFINE CHINESE CUISINES</h6>
+                    <p class="text-white text-center"> TO ENCOUNTER WITH CHINESOLOGY THROUGH FOUR ASPECTS</p>
+                    <h6 class="text-white ms-5">PRESENTATION   </h6>  <p class="text-white ms-5">The combination of vessels and dishes highlight the value and beauty of Chinese ingredients.   </p>
+                    <h6 class="text-white ms-5">CONCEPT    </h6>  <p class="text-white ms-5">   Instilling new elements to reactivate Chinese cuisine without deviating from the manifesto of traditional Chinese culinary art. </p>
+                    <h6 class="text-white ms-5">EXPERIENCE     </h6>  <p class="text-white ms-5">     Dining is more than the need of human but an enjoyment and interaction.Chinesology features a series of especial dining experience such as four hands dinner and cocktail pairing dinner, bringing memorable moments to guests!
+                    </p>
+                    <h6 class="text-white ms-5">  OFFERINGS     </h6>  <p class="text-white ms-5">      To prepare cuisines with finest ingredients with integration of five elements of Chinese cosmology.</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- Banner End -->
+
+     <!--   <section class="section-wrapper-5 content-inner justify-content-center overflow-hidden  mt-lg-5 " style="background-image:url('assets/images/background/pic1.png')  ;  ">
+            <div class="container">
                 <div class="section-head text-center text-white">
                     <h6 class="title wow flipInX text-white fs-2">CHINESOLOGY–REDEFINE CHINESE CUISINES</h6>
                     <p class="text-white"> TO ENCOUNTER WITH CHINESOLOGY THROUGH FOUR ASPECTS</p>
@@ -139,10 +173,10 @@
                 </div>
 
             </div>
-        </section>
+        </section>-->
         <!-- Chef Details start-->
         <section>
-            <div class="container mt-lg-5">
+            <div class="container  mt-3">
                 <div class="row">
                     <div class="col-12">
                         <div class="team-detail">
@@ -441,34 +475,34 @@
         <!-- Browser Our Menu -->
 
         <!--Today's Special-->
-        <section class="section-wrapper-5 content-inner overflow-hidden bg-parallax" style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
+        <section class="section-wrapper content-inner overflow-hidden bg-parallax container"  style=" background-image: url(assets/images/background/pic1.png); border-radius :2rem;">
             <div class="container">
                 <div class="section-head text-center">
                     <h2 class="title text-white wow flipInX" data-wow-delay="0.2s" data-wow-delay="2s">Today's Special</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="">
                             <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic1.jpg" alt="/">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="">
                             <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic2.jpg" alt="/">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="">
                             <div class="">
                                 <img src="assets/images/gallery/grid3/pic3.jpg" alt="/">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.10s">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.10s">
                         <div class="">
                             <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic4.jpg" alt="/">

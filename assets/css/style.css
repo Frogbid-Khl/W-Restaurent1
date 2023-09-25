@@ -9499,8 +9499,8 @@ strong,
 .container-md,
 .container-lg,
 .container-xl {
-  padding-left: 30px;
-  padding-right: 30px; }
+  padding-left: 2px;
+  padding-right: 80px; }
   @media only screen and (max-width: 1280px) {
     
     .container-fluid,
@@ -19530,7 +19530,7 @@ ul a.rsswidget {
     z-index: 1;
     margin-left: var(--slider-left-spacing);
     padding: 120px 0 30px;
-    border-radius: 30px 0 0 30px;
+    border-radius: 30px 30px 30px 30px;
     overflow: hidden !important;
     height: 100%; }
     .main-bnr-three .banner-inner::before, .main-bnr-three .banner-inner::after {
@@ -24772,8 +24772,8 @@ pre {
       border-radius: 0; } }
 
 .section-wrapper-5 {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 64px;
+  margin-right: 61px;
   z-index: 1;
   position: relative;
   border-radius: 30px; }

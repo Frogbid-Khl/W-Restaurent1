@@ -1,6 +1,6 @@
 <footer class="site-footer style-2 mt-lg-5" id="footer">
     <div class="footer-bg-wrapper" id="app-banner">
-        <div class="footer-top">
+        <div class="footer-top mt-3">
             <div class="container">
                 <div class="footer-subscribe-wrapper">
                     <div class="wrapper-inner">
