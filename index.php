@@ -25,7 +25,7 @@
     <div class="contact-sidebar">
         <div class="contact-box1">
             <div class="logo-contact logo-header">
-                <a href="index.html" class="anim-logo"><img src="assets/images/logo.png" alt="/"></a>
+                <a href="index.php" class="anim-logo"><img src="assets/images/logo.png" alt="/"></a>
             </div>
 
             <div class="dz-title">
@@ -67,7 +67,7 @@
 
         <div class="main-bnr-three overflow-hidden top-space">
 
-            <div class="main-slider-3 " >
+            <div class="main-slider-3">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="banner-inner overflow-hidden" data-swiper-parallax="-10" data-swiper-parallax-duration="0.5" style="background-image:url('assets/images/main-slider/slider2/bg1.jpg'); background-size:cover;">
@@ -143,7 +143,7 @@
         <!--Banner-->
         <!-- Banner  -->
         <div class=" container mt-3 "  style="background-image:url('assets/images/main-slider/slider2/bg2.jpg')  ;border-radius: 2rem; background-size:cover;">
-            <div class="container-fluid " style="    height: 500px">
+            <div class="container-fluid " style="padding: 50px">
                 <div class="dz-bnr-inr-entry justify-content-center">
                     <h6 class="title wow flipInX text-white fs-2 pt-5 text-center">CHINESOLOGY–REDEFINE CHINESE CUISINES</h6>
                     <p class="text-white text-center"> TO ENCOUNTER WITH CHINESOLOGY THROUGH FOUR ASPECTS</p>
@@ -475,7 +475,7 @@
         <!-- Browser Our Menu -->
 
         <!--Today's Special-->
-        <section class="section-wrapper content-inner overflow-hidden bg-parallax container"  style=" background-image: url(assets/images/background/pic1.png); border-radius :2rem;">
+        <section class="section-wrapper-5 content-inner overflow-hidden bg-parallax" style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
             <div class="container">
                 <div class="section-head text-center">
                     <h2 class="title text-white wow flipInX" data-wow-delay="0.2s" data-wow-delay="2s">Today's Special</h2>

@@ -54,11 +54,11 @@
                         </li>
                         <li class=""><a href="event.php">
                                 Event & Catering</a>
-                        <li class=""><a href="event.php">News</a>
+                        <li class=""><a href="news.php">News</a>
                         </li>
                         <li class=""><a href="javascript:void(0);">Press </a>
                         </li>
-                        <li class=""><a href="javascript:void(0);">Eshop </a>
+                        <li class=""><a href="shop.php">Eshop </a>
                         </li>
                         <li><a href="contact-us.php">Contact Us</a></li>
                     </ul>
