@@ -21,7 +21,7 @@
     <div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/banner/bnr1.jpg'); background-size:cover; background-position:center;">
         <div class="container">
             <div class="dz-bnr-inr-entry">
-                <h1>Moon Lok</h1>
+                <h1>Events</h1>
                 <!-- Breadcrumb Row -->
                 <nav aria-label="breadcrumb" class="breadcrumb-row">
                     <ul class="breadcrumb">
