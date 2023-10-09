@@ -61,6 +61,7 @@
 
     <div class="page-content bg-white">
         <!-- Banner -->
+        <div class="container" style="padding: 0 !important">
         <div class="main-bnr-three overflow-hidden top-space">
             <div class="main-slider-3">
                 <div class="swiper-wrapper">
@@ -135,9 +136,10 @@
                 </div>
             </div>
         </div>
+        </div>
         <!--Banner-->
         <!-- Banner  -->
-        <div class=" container" style="background-image:url('assets/images/main-slider/slider2/bg2.jpg')  ;border-radius: 2rem; background-size:cover; margin-top: 3rem;">
+        <div class="container" style="background-image:url('assets/images/main-slider/slider2/bg2.jpg')  ;border-radius: 2rem; background-size:cover; margin-top: 3rem;">
             <div class="container-fluid " style="padding: 50px">
                 <div class="dz-bnr-inr-entry justify-content-center">
                     <h6 class="title wow flipInX text-white fs-2 pt-5 text-center">CHINESOLOGY–REDEFINE CHINESE CUISINES</h6>

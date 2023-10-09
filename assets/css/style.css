@@ -13673,11 +13673,11 @@ a:hover, a:focus, a.active {
 }
 
 .text-primary {
-    color: var(--primary) !important;
+    color: #9d634d !important;
 }
 
 .bg-primary {
-    background-color: var(--primary) !important;
+    background-color: #ba9e77 !important;
 }
 
 .text-secondary {
@@ -18454,7 +18454,7 @@ section {
 }
 
 .site-header.style-2 .header-nav .nav > li.active > a, .site-header.style-2 .header-nav .nav > li:hover > a {
-    color: var(--primary);
+    color: #ba9e77;
 }
 
 @media only screen and (min-width: 991px) {
@@ -18498,7 +18498,7 @@ section {
 .extra-nav .extra-cell form input {
     height: 45px;
     border-radius: 25px !important;
-    border-color: var(--primary);
+    border-color: #2b515c;
 }
 
 .extra-nav .extra-cell form .input-group-addon {
@@ -18820,7 +18820,7 @@ section {
 }
 
 .dz-bnr-inr.style-1 .breadcrumb-row ul {
-    background: var(--primary);
+    background: #ba9e77;
 }
 
 .dz-bnr-inr.style-1 .breadcrumb-row ul li {
@@ -19259,7 +19259,7 @@ footer .dz-meta ul li a {
 }
 
 .site-footer .footer-bottom .copyright-text a {
-    color: var(--primary);
+    color: #ba9e77;
 }
 
 .site-footer .widget_services ul li {
@@ -20873,13 +20873,13 @@ button:focus {
 }
 
 .btn-primary, .wp-block-button__link {
-    border-color: var(--primary);
-    background-color: var(--primary);
+    border-color: #2b515c;
+    background-color: #2b515c;
 }
 
 .btn-primary.disabled, .disabled.wp-block-button__link, .btn-primary:disabled, .wp-block-button__link:disabled, .btn-primary:not(:disabled):not(.disabled).active, .wp-block-button__link:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .wp-block-button__link:not(:disabled):not(.disabled):active, .btn-primary:active, .wp-block-button__link:active, .btn-primary:focus, .wp-block-button__link:focus, .btn-primary:hover, .wp-block-button__link:hover {
-    border-color: var(--primary-hover);
-    background-color: var(--primary-hover);
+    border-color: #2b515c;
+    background-color: #2b515c;
     color: var(--theme-text-color);
 }
 
@@ -23201,7 +23201,7 @@ button:focus {
 }
 
 .progress-bx.style-1 .progress.primary .progress-bar {
-    background: var(--primary);
+    background:  #9d634d;
 }
 
 .scroltop {
@@ -24198,7 +24198,7 @@ button:focus {
 .widget_nav_menu ul li a:hover,
 .widget_recent_entries ul li a:hover,
 .widget_services ul li a:hover {
-    color: var(--primary);
+    color: #ba9e77;
 }
 
 .wp-block-latest-posts li li,
@@ -25087,7 +25087,7 @@ ul a.rsswidget:hover {
     line-height: 1;
     left: 0;
     top: 5px;
-    color: var(--primary);
+    color: #ba9e77;
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -27725,9 +27725,6 @@ ul a.rsswidget:hover {
     margin-top: 95px;
 }
 
-.top-space{
-  padding-right: 80px !important;
-}
 @media only screen and (max-width: 1280px) {
     .main-bnr-three.top-space {
         margin-top: 75px;
@@ -27763,7 +27760,6 @@ ul a.rsswidget:hover {
 .main-bnr-three .banner-inner {
     position: relative;
     z-index: 1;
-    margin-left: var(--slider-left-spacing);
     padding: 120px 0 30px;
     border-radius: 30px 30px 30px 30px;
     overflow: hidden !important;
@@ -29707,7 +29703,7 @@ ul a.rsswidget:hover {
     border-radius: 100%;
     box-shadow: 0px 15px 55px rgba(34, 34, 34, 0.15);
     background-color: #fff;
-    color: var(--primary);
+    color: #ba9e77;
     -webkit-transition: all 0.5s;
     -ms-transition: all 0.5s;
     transition: all 0.5s;

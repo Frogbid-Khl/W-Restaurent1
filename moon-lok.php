@@ -24,7 +24,7 @@
     <div class="contact-sidebar">
         <div class="contact-box1">
             <div class="logo-contact logo-header">
-                <a href="index.html" class="anim-logo"><img src="assets/images/logo.png" alt="/"></a>
+                <a href="index.php" class="anim-logo"><img src="assets/images/logo.png" alt="/"></a>
             </div>
 
             <div class="dz-title">
@@ -62,14 +62,14 @@
     <div class="menu-close"></div>
 
     <!-- Banner  -->
-    <div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/main-slider/slider2/pic1.png'); background-size:cover; background-position:center;">
+  <!--  <div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/main-slider/slider2/pic1.png'); background-size:cover; background-position:center;">
         <div class="container">
             <div class="dz-bnr-inr-entry">
                 <h1>About Us</h1>
 
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- Banner End -->
     <div class="page-content bg-white mt-lg-5">
 
