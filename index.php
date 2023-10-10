@@ -71,9 +71,8 @@
                                 <div class="row align-items-center" data-swiper-parallax="-100">
                                     <div class="col-xl-7 col-lg-7 col-md-8">
                                         <div class="banner-content">
-                                            <span class="sub-title text-primary">The Best Food Stations</span>
-                                            <h1 class="title text-white">Bringing Joy to Your Plate With Food </h1>
-                                            <p class="bnr-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <h1 class="title text-white" style="font-weight: bold">PAK LOH CHIU CHOW </h1>
+                                            <p class="bnr-text">Pak Loh Chiu Chow Restaurant, an award-winning pioneer in Chiu Chow cuisine with over 50 years of history, is proud to be spreading Chiu Chow culture through authentic and exquisite cuisine.</p>
                                         </div>
                                     </div>
                                     <div class="col-xl-5 col-lg-5 col-md-4">
@@ -92,9 +91,8 @@
                                 <div class="row align-items-center" data-swiper-parallax="-100">
                                     <div class="col-xl-7 col-lg-7 col-md-8">
                                         <div class="banner-content">
-                                            <span class="sub-title text-primary">High Quality Test Station </span>
-                                            <h1 class="title text-white">We believe Good Food Offer Great Smile </h1>
-                                            <p class="bnr-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <h1 class="title text-white" style="font-weight: bold">PAK LOH CHIU CHOW </h1>
+                                            <p class="bnr-text"> Pak Loh Chiu Chow Restaurant, an award-winning pioneer in Chiu Chow cuisine with over 50 years of history, is proud to be spreading Chiu Chow culture through authentic and exquisite cuisine.</p>
 
                                       <!--      <div class="banner-btn d-flex align-items-center">
                                                 <a href="contact-us.php" class="btn btn-primary btn-md shadow-primary m-r30 btn-hover-1"><span>Book a Table</span></a>
@@ -118,9 +116,8 @@
                                 <div class="row align-items-center" data-swiper-parallax="-100">
                                     <div class="col-xl-7 col-lg-7 col-md-8">
                                         <div class="banner-content">
-                                            <span class="sub-title text-primary">Exploring the Delicious World</span>
-                                            <h1 class="title text-white">Food that Makes You Happy And Healthy</h1>
-                                            <p class="bnr-text ow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <h1 class="title text-white" style="font-weight: bold">PAK LOH CHIU CHOW</h1>
+                                            <p class="bnr-text ow fadeInUp">Pak Loh Chiu Chow Restaurant, an award-winning pioneer in Chiu Chow cuisine with over 50 years of history, is proud to be spreading Chiu Chow culture through authentic and exquisite cuisine.</p>
 
                                         </div>
                                     </div>

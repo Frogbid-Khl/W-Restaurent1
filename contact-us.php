@@ -144,7 +144,7 @@
         <!-- Contact Section -->
         <section class="section-wrapper-8 content-inner-1">
             <div class="container">
-                <div class="row inner-section-wrapper align-items-center">
+                <!--<div class="row inner-section-wrapper align-items-center">
                     <div class="col-lg-3 col-sm-6">
                         <div class="icon-bx-wraper style-5 hover-aware box-hover">
                             <div class="icon-bx">
@@ -201,7 +201,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <div class="section-head text-center">
                     <h2 class="title">Reservation</h2>
                 </div>

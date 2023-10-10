@@ -76,17 +76,11 @@
                  style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
             <div class="container -5">
                 <div class="section-head text-center text-white">
-                    <h6 class="title wow flipInX text-white fs-1">Philosophy</h6>
+                    <h6 class="title wow flipInX text-white fs-1">PAK LOH CHIU CHOW</h6>
 
                 </div>
                 <div>
-                    <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                        only five centuries, but also the leap into electronic typesetting, remaining essentially
-                        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
-                        Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-                        including versions of Lorem Ipsum. </p>
+                    <p class="text-white">Pak Loh Chiu Chow is a 50-year running business in Hong Kong and has been serving loyal customers since the first restaurant in Causeway Bay opened in 1967. In the past decade, the brand has expanded and has since opened multiple branches; Elements Mall, Kowloon; K11 Mall, Kowloon; Times Square, Causeway Bay and Star Hill Gallery in Kuala Lumpur, Malaysia.<br>Pak Loh is a restaurant faithfully committed to Chiu Chow style of food made with the finest ingredients and one of the only restaurants serving award-winning handcrafted dishes. Persistent quality and creativity are the keys to success. Pak Loh strives to create the best experience for its clients through attention to decor, detail and quality service. Maintaining a consistently high standard of food is of utmost importance to the restaurant. Traditional and handcrafted dishes are presented in innovative ways; all made with the exceptional ingredients by chefs trained in classic Chiu Chow cuisine.<br>The PLCC specialties are Soyed Goose; various seafoods such as Cold Crab, Abalone, Whelk; traditional Chiu Chow Dim Sums, small authentic dishes which you would typically find in Chiu Chow homes and Chiu Chow cuisines extraordinary handcrafted dishes are also available.</p>
 
                 </div>
 
@@ -149,34 +143,30 @@
                                 <h4 class="m-b15">Signature Dish</h4>
                                 <ul class="dish-gallery gallery-grid-2">
                                     <li>
-                                        <a href="product-detail.html">
+                                        <a href="#">
                                             <div class="gallery-box-1">
-                                                <img src="assets/images/gallery/grid5/pic1.jpg" alt="/">
-                                                <span class="category">Sweet Cake</span>
+                                                <img src="assets/images/gallery/grid5/F-301-300x200.jpg" alt="/">
                                             </div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="product-detail.html">
+                                        <a href="#">
                                             <div class="gallery-box-1">
-                                                <img src="assets/images/gallery/grid5/pic5.jpg" alt="/">
-                                                <span class="category">Chicken</span>
+                                                <img src="assets/images/gallery/grid5/F-303-300x200.jpg" alt="/">
                                             </div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="product-detail.html">
+                                        <a href="#">
                                             <div class="gallery-box-1">
-                                                <img src="assets/images/gallery/grid5/pic7.jpg" alt="/">
-                                                <span class="category">Salad</span>
+                                                <img src="assets/images/gallery/grid5/F-320-300x200.jpg" alt="/">
                                             </div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="product-detail.html">
+                                        <a href="#">
                                             <div class="gallery-box-1">
-                                                <img src="assets/images/gallery/grid5/pic4.jpg" alt="/">
-                                                <span class="category">Burger</span>
+                                                <img src="assets/images/gallery/grid5/F-321-300x200.jpg" alt="/">
                                             </div>
                                         </a>
                                     </li>
@@ -184,47 +174,52 @@
                             </div>
                             <div class="col-xl-7 col-lg-6 m-b30">
                                 <div class="team-skills">
-                                    <h4 class="m-b10">Professional Skills</h4>
-                                    <p class="m-b15">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry.</p>
-                                    <div class="progress-bx style-1">
-                                        <h6 class="progress-label">Skills
-                                            <span class="pull-end">60%</span>
-                                        </h6>
-                                        <div class="progress primary rounded-md m-b20">
-                                            <div class="progress-bar rounded-md" role="progressbar" aria-valuenow="90"
-                                                 aria-valuemin="0" aria-valuemax="100" style="width:60%">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="progress-bx style-1">
-                                        <h6 class="progress-label">Signature Dishes
-                                            <span class="pull-end">85%</span>
-                                        </h6>
-                                        <div class="progress primary rounded-md m-b20">
-                                            <div class="progress-bar rounded-md" role="progressbar" aria-valuenow="85"
-                                                 aria-valuemin="0" aria-valuemax="100" style="width:85%">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="progress-bx style-1">
-                                        <h6 class="progress-label">Customer Satisfied
-                                            <span class="pull-end">95%</span>
-                                        </h6>
-                                        <div class="progress primary rounded-md m-b20">
-                                            <div class="progress-bar rounded-md" role="progressbar" aria-valuenow="95"
-                                                 aria-valuemin="0" aria-valuemax="100" style="width:95%">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="progress-bx style-1">
-                                        <h6 class="progress-label">Communication Skills
-                                            <span class="pull-end">75%</span>
-                                        </h6>
-                                        <div class="progress primary rounded-md m-b20">
-                                            <div class="progress-bar rounded-md" role="progressbar" aria-valuenow="85"
-                                                 aria-valuemin="0" aria-valuemax="100" style="width:75%">
-                                            </div>
+                                    <h4 class="m-b10" style="padding-left: 47px;">LOCATION</h4>
+                                    <div class="team-detail">
+                                        <div class="dz-info">
+                                            <ul class="team-info">
+                                                <li><strong style="font-weight: bold">Address:</strong>Shop 1028D, Elements. <br>
+                                                    1 Austin Road West, Kowloon</li>
+                                                <li><strong style="font-weight: bold">E-mail :</strong>pkl.elements@buick-hk.com</li>
+                                                <li><strong style="font-weight: bold" >Tel : </strong>3691 9168</li>
+                                                <li><strong style="font-weight: bold">Business Hour(Elements):</strong>Mon – Fri: 11:00-22:00<br>
+                                                    Sat, Sun & PHs: 10:00-22:00</li>
+                                            </ul>
+
+                                            <ul class="team-info">
+                                                <li><strong style="font-weight: bold">Address:</strong>Shop 1002, 10/F, Times Square <br>
+                                                    1 Matheson Street, Causeway Bay, Hong Kong</li>
+                                                <li><strong style="font-weight: bold">E-mail :</strong>pkl.timessquare@buick-hk.com</li>
+                                                <li><strong style="font-weight: bold" >Tel : </strong>2577 1163</li>
+                                                <li><strong style="font-weight: bold">Business Hour(Elements):</strong>Mon – Fri: 11:00-22:00 <br>
+                                                    Sat, Sun & PHs: 10:00-22:00</li>
+                                            </ul>
+
+
+
+
+                                           <!-- <div class="dz-social-icon">
+                                                <ul>
+                                                    <li><a target="_blank" class="btn-md text-dark"
+                                                           href="https://www.facebook.com/">
+                                                            <i class="fab fa-facebook-f"></i>
+                                                        </a></li>
+                                                    <li><a target="_blank" class="btn-md text-dark" href="https://twitter.com/">
+                                                            <i class="fab fa-twitter"></i>
+                                                        </a></li>
+                                                    <li><a target="_blank" class="btn-md text-dark" href="https://www.youtube.com/">
+                                                            <i class="fa-brands fa-youtube"></i>
+                                                        </a></li>
+                                                    <li><a target="_blank" class="btn-md text-dark"
+                                                           href="https://www.instagram.com/">
+                                                            <i class="fab fa-instagram"></i>
+                                                        </a></li>
+                                                    <li><a target="_blank" class="btn-md text-dark"
+                                                           href="https://www.linkedin.com/feed/">
+                                                            <i class="fa-brands fa-linkedin"></i>
+                                                        </a></li>
+                                                </ul>
+                                            </div>-->
                                         </div>
                                     </div>
                                 </div>
@@ -414,28 +409,28 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="">
                             <div class="dz-media">
-                                <img src="assets/images/gallery/grid3/pic1.jpg" alt="/">
+                                <img src="assets/images/gallery/grid5/F-323-300x200.jpg" alt="/">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="">
                             <div class="dz-media">
-                                <img src="assets/images/gallery/grid3/pic2.jpg" alt="/">
+                                <img src="assets/images/gallery/grid5/F-321-300x200.jpg" alt="/">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="">
                             <div class="">
-                                <img src="assets/images/gallery/grid3/pic3.jpg" alt="/">
+                                <img src="assets/images/gallery/grid5/F-301-300x200.jpg" alt="/">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.10s">
                         <div class="">
                             <div class="dz-media">
-                                <img src="assets/images/gallery/grid3/pic4.jpg" alt="/">
+                                <img src="assets/images/gallery/grid5/F-303-300x200.jpg" alt="/">
                             </div>
                         </div>
                     </div>

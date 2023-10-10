@@ -11,7 +11,7 @@
                                         <img src="assets/images/logo2.png" alt="/">
                                     </a>
                                 </div>
-                                <p class="text-white mb-0 font-14">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p class="text-white mb-0 font-14">Pak Loh Chiu Chow Restaurant, an award-winning pioneer in Chiu Chow cuisine with over 50 years of history</p>
                             </div>
                             <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
                                 <h4 class="text-white title m-b15">Subscribe To Our Newsletter</h4>
@@ -31,28 +31,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="widget widget_getintuch">
-                            <h5 class="footer-title">Contact</h5>
-                            <ul>
-                                <li>
-                                    <i class="flaticon-placeholder"></i>
-                                    <p>Your Address <br> your city</p>
-                                </li>
-                                <li>
-                                    <i class="flaticon-telephone"></i>
-                                    <p>+0000000000000<br>
-                                        +0000000000000</p>
-                                </li>
-                                <li>
-                                    <i class="flaticon-email-1"></i>
-                                    <p>info@example.com<br>
-                                        info@example.com</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-2 col-md-6 col-sm-6">
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="widget widget_services">
                             <h5 class="footer-title">Our Links</h5>
                             <ul>
@@ -64,7 +44,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="widget widget_services">
                             <h5 class="footer-title">OUR SERVICES</h5>
                             <ul>
@@ -76,7 +56,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6	">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6	">
                         <div class="widget widget_services">
                             <h5 class="footer-title">Help Center</h5>
                             <ul>

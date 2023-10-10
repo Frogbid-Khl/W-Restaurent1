@@ -77,17 +77,11 @@
                  style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
             <div class="container -5">
                 <div class="section-head text-center text-white">
-                    <h6 class="title wow flipInX text-white fs-1">Philosophy</h6>
+                    <h6 class="title wow flipInX text-white fs-1">MOON LOK CHIU CHOW</h6>
 
                 </div>
                 <div>
-                    <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                        only five centuries, but also the leap into electronic typesetting, remaining essentially
-                        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
-                        Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-                        including versions of Lorem Ipsum. </p>
+                    <p class="text-white">Moon Lok Chiu Chow holds the meaning of “Full of Happiness”, comprising three styles of Chiu Chow cuisine – Street style (Daa Laang), Hong Kong-inspired & Southeast Asian style. The Daa Laang cuisine is centered around street comforts and local delicacies served in casual setting. The Hong Kong Style uses more refined ingredients and hand-crafted dishes which are meticulously prepared for hours to create complex and well-balanced gourmets. The last style, is the Southeast Asian take on traditional Chiu Chow cuisine and fusion dishes, such as Bak Kuh Teh, Noodles in Soy-marinated Goose Broth and Chow Kway Teo.</p>
 
                 </div>
 
@@ -150,34 +144,30 @@
                                 <h4 class="m-b15">Signature Dish</h4>
                                 <ul class="dish-gallery gallery-grid-2">
                                     <li>
-                                        <a href="product-detail.html">
+                                        <a href="#">
                                             <div class="gallery-box-1">
-                                                <img src="assets/images/gallery/grid5/pic1.jpg" alt="/">
-                                                <span class="category">Sweet Cake</span>
+                                                <img src="assets/images/gallery/grid4/F-310-300x200.jpg" alt="/">
                                             </div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="product-detail.html">
+                                        <a href="#">
                                             <div class="gallery-box-1">
-                                                <img src="assets/images/gallery/grid5/pic5.jpg" alt="/">
-                                                <span class="category">Chicken</span>
+                                                <img src="assets/images/gallery/grid4/F-311-300x200.jpg" alt="/">
                                             </div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="product-detail.html">
+                                        <a href="#">
                                             <div class="gallery-box-1">
-                                                <img src="assets/images/gallery/grid5/pic7.jpg" alt="/">
-                                                <span class="category">Salad</span>
+                                                <img src="assets/images/gallery/grid4/F-312-300x200.jpg" alt="/">
                                             </div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="product-detail.html">
+                                        <a href="#">
                                             <div class="gallery-box-1">
-                                                <img src="assets/images/gallery/grid5/pic4.jpg" alt="/">
-                                                <span class="category">Burger</span>
+                                                <img src="assets/images/gallery/grid4/F-313-300x200.jpg" alt="/">
                                             </div>
                                         </a>
                                     </li>
@@ -185,47 +175,52 @@
                             </div>
                             <div class="col-xl-7 col-lg-6 m-b30">
                                 <div class="team-skills">
-                                    <h4 class="m-b10">Professional Skills</h4>
-                                    <p class="m-b15">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry.</p>
-                                    <div class="progress-bx style-1">
-                                        <h6 class="progress-label">Skills
-                                            <span class="pull-end">60%</span>
-                                        </h6>
-                                        <div class="progress primary rounded-md m-b20">
-                                            <div class="progress-bar rounded-md" role="progressbar" aria-valuenow="90"
-                                                 aria-valuemin="0" aria-valuemax="100" style="width:60%">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="progress-bx style-1">
-                                        <h6 class="progress-label">Signature Dishes
-                                            <span class="pull-end">85%</span>
-                                        </h6>
-                                        <div class="progress primary rounded-md m-b20">
-                                            <div class="progress-bar rounded-md" role="progressbar" aria-valuenow="85"
-                                                 aria-valuemin="0" aria-valuemax="100" style="width:85%">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="progress-bx style-1">
-                                        <h6 class="progress-label">Customer Satisfied
-                                            <span class="pull-end">95%</span>
-                                        </h6>
-                                        <div class="progress primary rounded-md m-b20">
-                                            <div class="progress-bar rounded-md" role="progressbar" aria-valuenow="95"
-                                                 aria-valuemin="0" aria-valuemax="100" style="width:95%">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="progress-bx style-1">
-                                        <h6 class="progress-label">Communication Skills
-                                            <span class="pull-end">75%</span>
-                                        </h6>
-                                        <div class="progress primary rounded-md m-b20">
-                                            <div class="progress-bar rounded-md" role="progressbar" aria-valuenow="85"
-                                                 aria-valuemin="0" aria-valuemax="100" style="width:75%">
-                                            </div>
+                                    <h4 class="m-b10" style="padding-left: 47px;">LOCATION</h4>
+                                    <div class="team-detail">
+                                        <div class="dz-info">
+                                            <ul class="team-info">
+                                                <li><strong style="font-weight: bold">Address:</strong>Unit G22, G/F, Citygate, 20 Tat Tung Road, <br>
+                                                    Tung Chung, Lantau Island, N.T.</li>
+                                                <li><strong style="font-weight: bold">E-mail :</strong>ml.citygate@buick-hk.com</li>
+                                                <li><strong style="font-weight: bold">Tel : </strong>2116 8149</li>
+                                                <li><strong style="font-weight: bold">Business Hour(Elements):</strong>Mon – Fri: 11:00 – 22:30 <br>
+                                                    Sat, Sun & PHs: 10:00 – 22:30</li>
+                                            </ul>
+
+                                            <ul class="team-info">
+                                                <li><strong style="font-weight: bold">Address:</strong>Shop 405, L4, FoodLoft, Mira Place One, <br> 132 Nathan Road,
+                                                    Tsim Sha Tsui, Kowloon</li>
+                                                <li><strong style="font-weight: bold">E-mail :</strong> chateh.tst@buick-hk.com</li>
+                                                <li><strong style="font-weight: bold">Tel : </strong>2157 9949</li>
+                                                <li><strong style="font-weight: bold">Business Hour(Elements):</strong>Mon – Fri: 11:00 – 22:30 <br>
+                                                    Sat, Sun & PHs: 10:00 – 22:30</li>
+                                            </ul>
+
+
+
+
+                                            <!-- <div class="dz-social-icon">
+                                                 <ul>
+                                                     <li><a target="_blank" class="btn-md text-dark"
+                                                            href="https://www.facebook.com/">
+                                                             <i class="fab fa-facebook-f"></i>
+                                                         </a></li>
+                                                     <li><a target="_blank" class="btn-md text-dark" href="https://twitter.com/">
+                                                             <i class="fab fa-twitter"></i>
+                                                         </a></li>
+                                                     <li><a target="_blank" class="btn-md text-dark" href="https://www.youtube.com/">
+                                                             <i class="fa-brands fa-youtube"></i>
+                                                         </a></li>
+                                                     <li><a target="_blank" class="btn-md text-dark"
+                                                            href="https://www.instagram.com/">
+                                                             <i class="fab fa-instagram"></i>
+                                                         </a></li>
+                                                     <li><a target="_blank" class="btn-md text-dark"
+                                                            href="https://www.linkedin.com/feed/">
+                                                             <i class="fa-brands fa-linkedin"></i>
+                                                         </a></li>
+                                                 </ul>
+                                             </div>-->
                                         </div>
                                     </div>
                                 </div>
@@ -416,28 +411,28 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="">
                             <div class="dz-media">
-                                <img src="assets/images/gallery/grid3/pic1.jpg" alt="/">
+                                <img src="assets/images/gallery/grid4/F-314-300x200.jpg" alt="/">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="">
                             <div class="dz-media">
-                                <img src="assets/images/gallery/grid3/pic2.jpg" alt="/">
+                                <img src="assets/images/gallery/grid4/F-313-300x200.jpg" alt="/">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="">
                             <div class="">
-                                <img src="assets/images/gallery/grid3/pic3.jpg" alt="/">
+                                <img src="assets/images/gallery/grid4/F-310-300x200.jpg" alt="/">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.10s">
                         <div class="">
                             <div class="dz-media">
-                                <img src="assets/images/gallery/grid3/pic4.jpg" alt="/">
+                                <img src="assets/images/gallery/grid4/F-311-300x200.jpg" alt="/">
                             </div>
                         </div>
                     </div>
