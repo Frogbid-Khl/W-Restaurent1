@@ -77,9 +77,9 @@
                                     </div>
                                     <div class="col-xl-5 col-lg-5 col-md-4">
 
-                                        <div class="banner-media">
+                                      <!--  <div class="banner-media">
                                             <img src="assets/images/main-slider/slider2/pic1.png" alt="/" data-swiper-parallax-scale="0.8">
-                                        </div>
+                                        </div>-->
                                     </div>
                                 </div>
                             </div>
@@ -91,8 +91,8 @@
                                 <div class="row align-items-center" data-swiper-parallax="-100">
                                     <div class="col-xl-7 col-lg-7 col-md-8">
                                         <div class="banner-content">
-                                            <h1 class="title text-white" style="font-weight: bold">PAK LOH CHIU CHOW </h1>
-                                            <p class="bnr-text"> Pak Loh Chiu Chow Restaurant, an award-winning pioneer in Chiu Chow cuisine with over 50 years of history, is proud to be spreading Chiu Chow culture through authentic and exquisite cuisine.</p>
+                                            <h1 class="title text-white" style="font-weight: bold">MOON LOK CHIU CHOW </h1>
+                                            <p class="bnr-text">Moon Lok Chiu Chow holds the meaning of “Full of Happiness”, comprising three styles of Chiu Chow cuisine – Street style (Daa Laang), Hong Kong-inspired & Southeast Asian style.</p>
 
                                       <!--      <div class="banner-btn d-flex align-items-center">
                                                 <a href="contact-us.php" class="btn btn-primary btn-md shadow-primary m-r30 btn-hover-1"><span>Book a Table</span></a>
@@ -102,29 +102,9 @@
                                         </div>
                                     </div>
                                     <div class="col-xl-5 col-lg-5 col-md-4">
-                                        <div class="banner-media">
+                                       <!-- <div class="banner-media">
                                             <img src="assets/images/main-slider/slider2/pic2.png" alt="/" data-swiper-parallax-scale="0.8">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="banner-inner overflow-hidden" style="background-image:url('assets/images/main-slider/slider2/bg3.jpg'); background-size:cover;">
-                            <div class="container">
-                                <div class="row align-items-center" data-swiper-parallax="-100">
-                                    <div class="col-xl-7 col-lg-7 col-md-8">
-                                        <div class="banner-content">
-                                            <h1 class="title text-white" style="font-weight: bold">PAK LOH CHIU CHOW</h1>
-                                            <p class="bnr-text ow fadeInUp">Pak Loh Chiu Chow Restaurant, an award-winning pioneer in Chiu Chow cuisine with over 50 years of history, is proud to be spreading Chiu Chow culture through authentic and exquisite cuisine.</p>
-
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-5 col-lg-5 col-md-4">
-                                        <div class="banner-media">
-                                            <img src="assets/images/main-slider/slider2/pic3.png" alt="/" data-swiper-parallax-scale="0.8">
-                                        </div>
+                                        </div>-->
                                     </div>
                                 </div>
                             </div>
@@ -136,7 +116,7 @@
         </div>
         <!--Banner-->
         <!-- Banner  -->
-        <div class="container" style="background-image:url('assets/images/main-slider/slider2/bg2.jpg')  ;border-radius: 2rem; background-size:cover; margin-top: 3rem;">
+        <div class="container" style="background-image:url('assets/images/main-slider/slider2/bg4.jpg')  ;border-radius: 2rem; background-size:cover; margin-top: 3rem;">
             <div class="container-fluid " style="padding: 50px">
                 <div class="dz-bnr-inr-entry justify-content-center">
                     <h6 class="title wow flipInX text-white fs-2 pt-5 text-center">CHINESOLOGY–REDEFINE CHINESE CUISINES</h6>

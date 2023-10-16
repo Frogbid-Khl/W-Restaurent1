@@ -35,7 +35,7 @@
                 <!-- Header Nav -->
                 <div class="header-nav navbar-collapse collapse justify-content-center" id="navbarNavDropdown">
                     <div class="logo-header">
-                        <a href="index.html" class="anim-logo"><img src="assets/images/logo.png" alt="/"></a>
+                        <a href="index.php" class="anim-logo"><img src="assets/images/logo.png" alt="/"></a>
                     </div>
                     <ul class="nav navbar-nav navbar navbar-left">
                         <li class=""><a href="index.php"">Home</a>
@@ -48,8 +48,8 @@
                         </li>
                         <li class="sub-menu-down"><a href="javascript:void(0);"> Menu</a>
                             <ul class="sub-menu">
-                                <li><a href="menu1.php"> Pak Loh</a></li>
-                                <li><a href="menu2.php">Moon Lok</a></li>
+                                <li><a href="assets/pdf/PLEL%20_%20PLTS%202023%20Menu_2023_05.pdf" target="_blank"> Pak Loh</a></li>
+                                <li><a href="assets/pdf/MLCC%20TC%20_%20MIRA%20Menu%202023_04_rev3.pdf" target="_blank">Moon Lok</a></li>
                             </ul>
                         </li>
                         <li class=""><a href="event.php">
