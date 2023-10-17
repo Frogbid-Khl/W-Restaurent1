@@ -154,28 +154,35 @@
                         <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
                             <div class="">
                                 <div class="dz-media">
-                                    <img src="assets/images/gallery/grid4/F-314-300x200.jpg" alt="/">
+                                    <img src="assets/images/gallery/grid4/Untitled-4_0006_Layer%206.jpg" alt="/">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
                             <div class="">
                                 <div class="dz-media">
-                                    <img src="assets/images/gallery/grid4/F-313-300x200.jpg" alt="/">
+                                    <img src="assets/images/gallery/grid4/Untitled-4_0007_Layer%205.jpg" alt="/">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
                             <div class="">
                                 <div class="">
-                                    <img src="assets/images/gallery/grid4/F-310-300x200.jpg" alt="/">
+                                    <img src="assets/images/gallery/grid4/Untitled-4_0008_Layer%204.jpg" alt="/">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.10s">
                             <div class="">
                                 <div class="dz-media">
-                                    <img src="assets/images/gallery/grid4/F-311-300x200.jpg" alt="/">
+                                    <img src="assets/images/gallery/grid4/Untitled-4_0009_Layer%203.jpg" alt="/">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp pt-3" data-wow-delay="0.12s">
+                            <div class="">
+                                <div class="dz-media">
+                                    <img src="assets/images/gallery/grid4/Untitled-4_0010_Layer%202.jpg" alt="/">
                                 </div>
                             </div>
                         </div>
