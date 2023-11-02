@@ -66,7 +66,7 @@
             <div class="main-slider-3">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="banner-inner overflow-hidden" data-swiper-parallax="-10" data-swiper-parallax-duration="0.5" style="background-image:url('assets/images/main-slider/slider2/bg1.jpg'); background-size:cover;">
+                        <div class="banner-inner overflow-hidden" data-swiper-parallax="-10" data-swiper-parallax-duration="0.5" style="background-image:url('assets/images/main-slider/slider2/bg2.jpg'); background-size:cover;">
                             <div class="container">
                                 <div class="row align-items-center" data-swiper-parallax="-100">
                                     <div class="col-xl-7 col-lg-7 col-md-8">
@@ -76,35 +76,22 @@
                                         </div>
                                     </div>
                                     <div class="col-xl-5 col-lg-5 col-md-4">
-
-                                      <!--  <div class="banner-media">
-                                            <img src="assets/images/main-slider/slider2/pic1.png" alt="/" data-swiper-parallax-scale="0.8">
-                                        </div>-->
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="banner-inner overflow-hidden" data-swiper-parallax="-10" data-swiper-parallax-duration="0.5" style="background-image:url('assets/images/main-slider/slider2/bg2.jpg'); background-size:cover;">
+                        <div class="banner-inner overflow-hidden" data-swiper-parallax="-10" data-swiper-parallax-duration="0.5" style="background-image:url('assets/images/main-slider/slider2/bg1.jpg'); background-size:cover;">
                             <div class="container">
                                 <div class="row align-items-center" data-swiper-parallax="-100">
                                     <div class="col-xl-7 col-lg-7 col-md-8">
                                         <div class="banner-content">
                                             <h1 class="title text-white" style="font-weight: bold">MOON LOK CHIU CHOW </h1>
                                             <p class="bnr-text">Moon Lok Chiu Chow holds the meaning of “Full of Happiness”, comprising three styles of Chiu Chow cuisine – Street style (Daa Laang), Hong Kong-inspired & Southeast Asian style.</p>
-
-                                      <!--      <div class="banner-btn d-flex align-items-center">
-                                                <a href="contact-us.php" class="btn btn-primary btn-md shadow-primary m-r30 btn-hover-1"><span>Book a Table</span></a>
-                                                <a href="about-us.html" class="btn btn-outline-primary btn-md shadow-primary btn-hover-1"><span>View More</span></a>
-                                            </div>-->
-
                                         </div>
                                     </div>
                                     <div class="col-xl-5 col-lg-5 col-md-4">
-                                       <!-- <div class="banner-media">
-                                            <img src="assets/images/main-slider/slider2/pic2.png" alt="/" data-swiper-parallax-scale="0.8">
-                                        </div>-->
                                     </div>
                                 </div>
                             </div>
@@ -153,7 +140,7 @@
             <div class="container  mt-3">
                 <div class="row">
                     <div class="col-12">
-                        <div class="team-detail">
+                        <!--<div class="team-detail">
                             <div class="dz-media rounded-md">
                                 <img src="assets/images/team/detail/pic1.jpg" alt="/">
                             </div>
@@ -189,7 +176,7 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="team-bio">
                             <h4 class="m-b10">Biography</h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>

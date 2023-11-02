@@ -92,7 +92,7 @@
             <div class="container mt-lg-5">
                 <div class="row">
                     <div class="col-12">
-                        <div class="team-detail">
+                        <!--<div class="team-detail">
                             <div class="dz-media rounded-md">
                                 <img src="assets/images/team/detail/pic1.jpg" alt="/">
                             </div>
@@ -131,7 +131,7 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="team-bio">
                             <h4 class="m-b10">Biography</h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum

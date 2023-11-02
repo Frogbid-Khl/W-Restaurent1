@@ -128,14 +128,6 @@
             <div class="container">
                 <div class="dz-bnr-inr-entry">
                     <h1>Contact Us</h1>
-                    <!-- Breadcrumb Row -->
-                    <nav aria-label="breadcrumb" class="breadcrumb-row">
-                        <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
-                        </ul>
-                    </nav>
-                    <!-- Breadcrumb Row End -->
                 </div>
             </div>
         </div>
@@ -203,7 +195,7 @@
                     </div>
                 </div>-->
                 <div class="section-head text-center">
-                    <h2 class="title">Reservation</h2>
+                    <h2 class="title">Contact Us</h2>
                 </div>
                 <form class="dzForm dezPlaceAni" method="POST" action="https://swigo.w3itexpert.com/xhtml/assets/script/contact_smtp.php">
                     <div class="dzFormMsg"></div>

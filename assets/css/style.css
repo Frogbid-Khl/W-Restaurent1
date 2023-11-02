@@ -20272,7 +20272,7 @@ label.error {
 }
 
 .input-line .form-control, .input-line .wp-block-categories-dropdown select, .wp-block-categories-dropdown .input-line select,
-.input-line .wp-block-archives-dropdown select, .wp-block-archives-dropdown .input-line select {
+.input-line .wp-block-archives-dropdown select, .wp-block-archives-dropdown .input-line .form-check-label select {
     padding: 0;
     height: 48px !important;
     line-height: 24px;

@@ -19,7 +19,7 @@
                 </button>
 
                 <!-- EXTRA NAV -->
-                <div class="extra-nav">
+                <!--<div class="extra-nav">
                     <div class="extra-cell">
                         <form method="post">
                             <div class="input-group">
@@ -33,7 +33,7 @@
                             </div>
                         </form>
                     </div>
-                </div>
+                </div>-->
                 <!-- EXTRA NAV -->
                 <!-- Header Nav -->
                 <div class="header-nav navbar-collapse collapse justify-content-center" id="navbarNavDropdown">

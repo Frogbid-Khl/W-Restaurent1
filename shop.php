@@ -25,14 +25,6 @@
             <div class="container">
                 <div class="dz-bnr-inr-entry">
                     <h1>E-Shop</h1>
-                    <!-- Breadcrumb Row -->
-                    <nav aria-label="breadcrumb" class="breadcrumb-row">
-                        <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">E-Shop</li>
-                        </ul>
-                    </nav>
-                    <!-- Breadcrumb Row End -->
                 </div>
             </div>
         </div>
