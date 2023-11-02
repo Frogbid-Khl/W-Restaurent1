@@ -148,41 +148,48 @@
                      style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
                 <div class="container">
                     <div class="section-head text-center">
-                        <h2 class="title text-white wow flipInX" data-wow-delay="0.2s" data-wow-delay="2s">Offical Photos (CityGate)</h2>
+                        <h2 class="title text-white wow flipInX" data-wow-delay="0.2s" data-wow-delay="2s">Offical photos (PL Time Square )</h2>
                     </div>
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
                             <div class="">
                                 <div class="dz-media">
-                                    <img src="assets/images/gallery/grid4/Untitled-4_0006_Layer%206.jpg" alt="/">
+                                    <img src="assets/images/gallery/grid4/m1.jpg" alt="/">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
                             <div class="">
                                 <div class="dz-media">
-                                    <img src="assets/images/gallery/grid4/Untitled-4_0007_Layer%205.jpg" alt="/">
+                                    <img src="assets/images/gallery/grid4/m2.jpg" alt="/">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
                             <div class="">
                                 <div class="">
-                                    <img src="assets/images/gallery/grid4/Untitled-4_0008_Layer%204.jpg" alt="/">
+                                    <img src="assets/images/gallery/grid4/m3.jpg" alt="/">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.10s">
                             <div class="">
                                 <div class="dz-media">
-                                    <img src="assets/images/gallery/grid4/Untitled-4_0009_Layer%203.jpg" alt="/">
+                                    <img src="assets/images/gallery/grid4/m4.jpg" alt="/">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp pt-3" data-wow-delay="0.12s">
                             <div class="">
                                 <div class="dz-media">
-                                    <img src="assets/images/gallery/grid4/Untitled-4_0010_Layer%202.jpg" alt="/">
+                                    <img src="assets/images/gallery/grid4/m5.jpg" alt="/">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp pt-3" data-wow-delay="0.12s">
+                            <div class="">
+                                <div class="dz-media">
+                                    <img src="assets/images/gallery/grid4/m6.jpg" alt="/">
                                 </div>
                             </div>
                         </div>

@@ -17485,7 +17485,7 @@ section {
 }
 
 .header-nav .nav > li > a {
-    color: #071c35;
+    color: #9e8467;
     font-size: 18px;
     padding: 40px 15px;
     font-family: Tajawal-Bold;
@@ -17577,7 +17577,7 @@ section {
 
 .header-nav .nav > li .mega-menu li a,
 .header-nav .nav > li .sub-menu li a {
-    color: #212529;
+    color: #9e8467;
     display: block;
     font-size: 15px;
     padding: 8px 25px;
@@ -18323,7 +18323,7 @@ section {
 }
 
 .site-header.style-1 .header-nav .nav > li.active > a, .site-header.style-1 .header-nav .nav > li:hover > a {
-    color: var(--primary);
+    color: red;
 }
 
 @media only screen and (min-width: 991px) {
