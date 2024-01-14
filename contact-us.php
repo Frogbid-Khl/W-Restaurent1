@@ -136,65 +136,7 @@
         <!-- Contact Section -->
         <section class="section-wrapper-8 content-inner-1">
             <div class="container">
-                <!--<div class="row inner-section-wrapper align-items-center">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="icon-bx-wraper style-5 hover-aware box-hover">
-                            <div class="icon-bx">
-                                <div class="icon-cell">
-                                    <i class="flaticon-placeholder"></i>
-                                </div>
-                            </div>
-                            <div class="icon-content">
-                                <h5 class="title">Location</h5>
-                                <p>Your Address<br>Your City</p>
-                                <div class="effect bg-primary"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="icon-bx-wraper style-5 hover-aware box-hover active">
-                            <div class="icon-bx">
-                                <div class="icon-cell">
-                                    <i class="flaticon-telephone"></i>
-                                </div>
-                            </div>
-                            <div class="icon-content">
-                                <h5 class="title">Phone Number</h5>
-                                <p>+(800) 333-444-444 <br>+333 33 444 444</p>
-                                <div class="effect bg-primary"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="icon-bx-wraper style-5 hover-aware box-hover">
-                            <div class="icon-bx ">
-                                <div class="icon-cell">
-                                    <i class="flaticon-email-1"></i>
-                                </div>
-                            </div>
-                            <div class="icon-content">
-                                <h5 class="title">Email Address</h5>
-                                <p>Info@Webmail.com <br>Info@Example.web.com</p>
-                                <div class="effect bg-primary"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="icon-bx-wraper style-5 hover-aware box-hover">
-                            <div class="icon-bx ">
-                                <div class="icon-cell">
-                                    <i class="flaticon-clock-1"></i>
-                                </div>
-                            </div>
-                            <div class="icon-content">
-                                <h5 class="title">Open & Closing</h5>
-                                <p>Mon - Fri: 09:00am <br>to  07.00pm </p>
-                                <div class="effect bg-primary"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-                <div class="section-head text-center">
+                <div class="section-head text-center" id="contact-form">
                     <h2 class="title">Contact Us</h2>
                 </div>
                 <form class="dzForm dezPlaceAni" method="POST" action="https://swigo.w3itexpert.com/xhtml/assets/script/contact_smtp.php">

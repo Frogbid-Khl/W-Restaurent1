@@ -9,12 +9,8 @@
 <meta property="og:description" content="">
 <meta property="og:image" content="">
 <meta name="format-detection" content="telephone=no">
-
-<!-- Mobile Specific -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- Favicon icon -->
-<link rel="icon" type="image/png" href="assets/images/favicon.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css'>
 
 <!-- Stylesheet -->
 <link href="assets/vendor/animate/animate.css" rel="stylesheet">
@@ -27,6 +23,8 @@
 <link rel="stylesheet" href="assets/vendor/switcher/switcher.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link class="skin" rel="stylesheet" href="assets/css/skin/skin-2.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com/">

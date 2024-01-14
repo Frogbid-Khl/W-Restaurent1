@@ -13,58 +13,30 @@
                                 </div>
                                 <p class="text-white mb-0 font-14">Pak Loh Chiu Chow Restaurant, an award-winning pioneer in Chiu Chow cuisine with over 50 years of history</p>
                             </div>
-                            <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-                                <h4 class="text-white title m-b15">Subscribe To Our Newsletter</h4>
-                                <form class="dzSubscribe" action="#" method="post">
-                                    <div class="dzSubscribeMsg text-white"></div>
-                                    <div class="input-group">
-                                        <input name="dzEmail" required="required" type="text" class="form-control" placeholder="Enter Your Email">
-                                        <div class="input-group-addon">
-                                            <button name="submit" value="submit" type="submit" class="btn btn-primary btn-hover-2">
-                                                <span>Subscribe</span><i class="fa-solid fa-paper-plane"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
 
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                         <div class="widget widget_services">
                             <h5 class="footer-title">Our Links</h5>
                             <ul>
-                                <li><a href="#"><span>Home</span></a></li>
-                                <li><a href="#"><span>About Us</span></a></li>
-                                <li><a href="#"><span>Services</span></a></li>
-                                <li><a href="#"><span>Team</span></a></li>
-                                <li><a href="#"><span>Blog</span></a></li>
+                                <li><a href="index.php"><span>Home</span></a></li>
+                                <li><a href="event.php"><span>Event & Catering</span></a></li>
+                                <li><a href="news.php"><span>News & Press</span></a></li>
+                                <li><a href="shop.php"><span>Eshop</span></a></li>
+                                <li><a href="contact-us.php"><span>Location</span></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                        <div class="widget widget_services">
-                            <h5 class="footer-title">OUR SERVICES</h5>
-                            <ul>
-                                <li><a href="#"><span>Strategy & Research</span></a></li>
-                                <li><a href="#"><span>Fast Delivery</span></a></li>
-                                <li><a href="#"><span>Seat Reservation</span></a></li>
-                                <li><a href="#"><span>Pickup In Store</span></a></li>
-                                <li><a href="#"><span>Our Menu</span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6	">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6	">
                         <div class="widget widget_services">
                             <h5 class="footer-title">Help Center</h5>
                             <ul>
-                                <li><a href="#"><span>FAQ</span></a></li>
-                                <li><a href="#"><span>Shop</span></a></li>
-                                <li><a href="#"><span>Category Filter</span></a></li>
-                                <li><a href="#"><span>Testimonials</span></a></li>
-                                <li><a href="#"><span>Contact Us</span></a></li>
+                                <li><a href="contact-us.php#contact-form"><span>Contact Us</span></a></li>
+                                <li style="display: flex;"><a href="#"><span><i class="fa-brands fa-2x fa-facebook"></i></span></a><a style="padding-left: 20px;" href="#"><span><i class="fa-brands fa-2x fa-instagram"></i></span></a></li>
+                                <li></li>
                             </ul>
                         </div>
                     </div>

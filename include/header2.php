@@ -6,7 +6,8 @@
 
                 <!-- Website Logo -->
                 <div class="logo-header mostion">
-                    <a href="index.html" class="anim-logo"><img src="assets/images/logo.png" alt="/"></a>
+                    <a href="pak-loh.php" class="anim-logo"><img src="assets/images/logo/logo1.png" alt="/"></a>
+                    <a href="moon-lok.php" class="anim-logo"><img src="assets/images/logo/logo3.png" alt="/" style="margin-left: 20px;"></a>
                 </div>
 
                 <!-- Nav Toggle Button -->
@@ -18,23 +19,6 @@
                     <span></span>
                 </button>
 
-                <!-- EXTRA NAV -->
-                <!--<div class="extra-nav">
-                    <div class="extra-cell">
-                        <form method="post">
-                            <div class="input-group">
-                                <input required="required" type="text" class="form-control" placeholder="Search">
-                                <div class="input-group-addon">
-                                    <button name="submit" value="submit" type="submit"
-                                            class="btn btn-primary btn-hover-2">
-                                        <span><i class="fa-solid fa-magnifying-glass"></i></span>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>-->
-                <!-- EXTRA NAV -->
                 <!-- Header Nav -->
                 <div class="header-nav navbar-collapse collapse justify-content-center" id="navbarNavDropdown">
                     <div class="logo-header">
@@ -57,13 +41,12 @@
                             </ul>
                         </li>
                         <li><a href="event.php">Event & Catering</a>
-                        <li><a href="news.php">News</a>
-                        </li>
-                        <li><a href="javascript:void(0);">Press </a>
+                        <li><a href="news.php">News & Press</a>
                         </li>
                         <li><a href="shop.php">Eshop</a>
                         </li>
-                        <li><a href="contact-us.php">Contact Us</a></li>
+                        <li><a href="contact-us.php">Location</a></li>
+                        <li><a href="#">繁｜ENG</a></li>
                     </ul>
                     <div class="dz-social-icon">
                         <ul>
