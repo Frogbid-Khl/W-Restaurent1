@@ -22,10 +22,10 @@
 
     <div class="page-content bg-white">
         <!-- Banner  -->
-        <div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/banner/bnr2.jpg'); background-size:cover; background-position:center;">
+        <div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/news/1.jpg'); background-size:contain; background-position:center;">
             <div class="container">
                 <div class="dz-bnr-inr-entry">
-                    <h1>News</h1>
+
                 </div>
             </div>
         </div>

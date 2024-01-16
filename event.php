@@ -37,10 +37,10 @@
     ?>
     <!-- Header -->
     <!-- Banner  -->
-    <div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/event/1.jpg'); background-size:cover; background-position:center;">
+    <div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/event/1.jpg'); background-size:contain; background-position:center;">
         <div class="container">
             <div class="dz-bnr-inr-entry">
-                <h1 class="m-lg-t80">Events</h1>
+                <h1 class="m-lg-t80"></h1>
             </div>
         </div>
     </div>
