@@ -15,3 +15,4 @@
 <script src="assets/js/dz.ajax.js"></script><!-- AJAX -->
 <script src="assets/js/custom.min.js"></script><!-- CUSTOM JS -->
 <script src="assets/vendor/rangeslider/rangeslider.js"></script><!-- CUSTOM JS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js'></script>

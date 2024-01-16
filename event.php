@@ -37,18 +37,10 @@
     ?>
     <!-- Header -->
     <!-- Banner  -->
-    <div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/banner/bnr1.jpg'); background-size:cover; background-position:center;">
+    <div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/event/1.jpg'); background-size:cover; background-position:center;">
         <div class="container">
             <div class="dz-bnr-inr-entry">
                 <h1 class="m-lg-t80">Events</h1>
-                <!-- Breadcrumb Row -->
-                <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <!-- Breadcrumb Row End -->
             </div>
         </div>
     </div>
@@ -58,7 +50,7 @@
              style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
         <div class="container">
             <div class="section-head text-center">
-                <h2 class="title text-white wow flipInX" data-wow-delay="0.2s">Reservation</h2>
+                <h2 class="title text-white wow flipInX" data-wow-delay="0.2s">Enquiry</h2>
             </div>
             <form action="#">
                 <div class="row">
@@ -116,12 +108,6 @@
                         <label class="form-check-label" for="flexCheckDefault">
                             Type of Events:
                         </label>
-                        <div class="form-check form-check-inline ms-3">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Wedding
-                            </label>
-                        </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                             <label class="form-check-label" for="flexCheckChecked">
@@ -143,7 +129,7 @@
                         <div class="form-check form-check-inline ms-3">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
-                                Launch
+                                Lunch
                             </label>
                         </div>
                         <div class="form-check form-check-inline">
@@ -237,23 +223,23 @@
 
                     <div class="col-lg-12 col-md-12 text-center">
                         <button type="submit" name="submit" value="submit" class="btn btn-lg btn-white btn-hover-1">
-                            <span>Book a Table</span></button>
+                            <span>Submit</span></button>
                     </div>
                 </div>
             </form>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h3 class="text-white">Contact us for other enquiry</h3>
+                </div>
+                <div class="col-12">
+                    <p class="text-white"><i class="fa-solid fa-envelope"></i> <a href="mailto:xxxxx@buick-hk.com">xxxxx@buick-hk.com</a></p>
+                    <p class="text-white"><i class="fa-solid fa-phone"></i> <a href="callto:21563909">2156 3909</a></p>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Search Section-->
 
-        <!-- Map Iframe -->
-        <div class="map-iframe style-1">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236161.13768968167!2d113.97459101369066!3d22.352957629908833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403e2eda332980f%3A0xf08ab3badbeac97c!2sHong%20Kong!5e0!3m2!1sen!2sbd!4v1695730944830!5m2!1sen!2sbd"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <!-- Map Iframe -->
-
-    </div>
     <!--Footer-->
     <?php
     include('include/footer.php')

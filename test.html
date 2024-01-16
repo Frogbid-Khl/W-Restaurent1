@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Slider with Lightbox</title>
+
+    <style>
+        /* Add any additional styling as needed */
+        .slider-container-new {
+            max-width: 100%;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative; /* Make the container relative for absolute positioning of buttons */
+        }
+
+        .slider-new {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            cursor: pointer;
+            position: relative; /* Make the slider container relative for absolute positioning of buttons */
+        }
+
+        .slide {
+            flex: 0 0 50%; /* 50% width for each slide on phones, adjust as needed */
+            box-sizing: border-box;
+            padding: 5px; /* Optional spacing between slides */
+            position: relative; /* Make each slide relative for absolute positioning of buttons */
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lightbox img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain; /* Maintain aspect ratio */
+        }
+
+        /* Style for navigation buttons */
+        button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        button.prev {
+            left: 0;
+        }
+
+        button.next {
+            right: 0;
+        }
+
+        @media screen and (max-width: 767px) {
+            .slide {
+                flex: 0 0 100%; /* 100% width for each slide on screens less than 768px width */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="slider-container-new">
+    <div class="slider-new" id="slider-1">
+        <div class="slide" onclick="openLightbox(0)"><img src="assets/images/restaurant/awards/1.png" alt="Image 1"></div>
+        <div class="slide" onclick="openLightbox(1)"><img src="assets/images/restaurant/awards/2.png" alt="Image 2"></div>
+        <div class="slide" onclick="openLightbox(2)"><img src="assets/images/restaurant/awards/3.png" alt="Image 3"></div>
+        <div class="slide" onclick="openLightbox(3)"><img src="assets/images/restaurant/awards/4.png" alt="Image 4"></div>
+        <div class="slide" onclick="openLightbox(4)"><img src="assets/images/restaurant/awards/5.png" alt="Image 5"></div>
+    </div>
+    <!-- Navigation buttons -->
+    <button class="prev" onclick="prevSlide()">Previous</button>
+    <button class="next" onclick="nextSlide()">Next</button>
+</div>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <img id="lightboxImage" src="" alt="Enlarged Image">
+</div>
+
+<script>
+    const slider = document.getElementById('slider-1');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImage = document.getElementById('lightboxImage');
+    let currentIndex = 0;
+    let lightboxIndex = 0;
+
+    function openLightbox(index) {
+        lightboxIndex = index;
+        showSlide(lightboxIndex);
+        lightboxImage.src = slider.children[lightboxIndex].firstChild.src;
+        lightbox.style.display = 'flex';
+    }
+
+    function closeLightbox() {
+        lightbox.style.display = 'none';
+    }
+
+    function showSlide(index) {
+        const slideWidth = window.innerWidth; // Dynamic calculation based on the window width
+        const translateValue = -index * slideWidth + 'px';
+        slider.style.transform = 'translateX(' + translateValue + ')';
+    }
+
+    function prevSlide() {
+        lightboxIndex = (lightboxIndex - 1 + slider.children.length) % slider.children.length;
+        showSlide(lightboxIndex);
+    }
+
+    function nextSlide() {
+        lightboxIndex = (lightboxIndex + 1) % slider.children.length;
+        showSlide(lightboxIndex);
+    }
+</script>
+
+</body>
+</html>

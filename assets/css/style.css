@@ -35879,4 +35879,8 @@ img {
         display: none !important;
     }
 }
+
+.card-img-top {
+    width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
