@@ -124,10 +124,10 @@
 
     <div class="page-content bg-white">
         <!-- Banner  -->
-        <div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/banner/bnr1.jpg'); background-size:cover; background-position:center;">
+        <div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/contact/01.jpg'); background-size:cover; background-position:center;">
             <div class="container">
                 <div class="dz-bnr-inr-entry">
-                    <h1>Contact Us</h1>
+
                 </div>
             </div>
         </div>
@@ -136,7 +136,92 @@
         <!-- Contact Section -->
         <section class="section-wrapper-8 content-inner-1">
             <div class="container">
-                <div class="section-head text-center" id="contact-form">
+                <div class="row mt-3">
+                    <div class="col-6 col-lg-3 text-center">
+                        <img src="assets/images/logo/logo.jpg" style="height: 250px; width: auto;">
+                    </div>
+                    <div class="col-6 col-lg-9">
+                        <h3>Pak Loh Chiu Chow (Hysan)</h3>
+                        <ul style="line-height: 40px; font-size: 20px;">
+                            <li><i class="fa-solid fa-house"></i> G/F, 23-25 Hysan Avenue, Causeway Bay</li>
+                            <li><i class="fa-solid fa-calendar-days"></i> 1:00 - 22:30</li>
+                            <li><i class="fa-solid fa-phone"></i> +852 25768886</li>
+                            <li><i class="fa-solid fa-envelope"></i> tbc</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-6 col-lg-3 text-center">
+                        <img src="assets/images/logo/logo.jpg" style="height: 250px; width: auto;">
+                    </div>
+                    <div class="col-6 col-lg-9">
+                        <h3>Pak Loh Chiu Chow (Times Square)</h3>
+                        <ul style="line-height: 40px; font-size: 20px;">
+                            <li><i class="fa-solid fa-house"></i> Shop 1002, 10/F, Times Square, 1 Matheson Street,Causeway Bay </li>
+                            <li><i class="fa-solid fa-calendar-days"></i> Mon-Fri: 11:00 - 21:30 <br> Sat-Sun, PH: 10:00 - 21:30</li>
+                            <li><i class="fa-solid fa-phone"></i> +852 25771163</li>
+                            <li><i class="fa-solid fa-envelope"></i> pkl.timessquare@buick-hk.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-6 col-lg-3 text-center">
+
+                    </div>
+                    <div class="col-6 col-lg-9">
+                        <h3>Pak Loh Chiu Chow (Elements)</h3>
+                        <ul style="line-height: 40px; font-size: 20px;">
+                            <li><i class="fa-solid fa-house"></i> Shop 1028D, 1/F, Water Zone, ELEMENTS, 1 Austin Road West, Tsim Sha Tsui</li>
+                            <li><i class="fa-solid fa-calendar-days"></i> Mon-Fri: 10:45 - 23:00<br> Sat-Sun: 10:00 - 23:00</li>
+                            <li><i class="fa-solid fa-phone"></i> +852 36919168</li>
+                            <li><i class="fa-solid fa-envelope"></i> pkl.elements@buick-hk.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-6 col-lg-3 text-center">
+                        <img src="assets/images/logo/logo.1.jpg" style="height: 250px; width: auto;">
+                    </div>
+                    <div class="col-6 col-lg-9">
+                        <h3>Moon Lok Chiu Chow (Mira)</h3>
+                        <ul style="line-height: 40px; font-size: 20px;">
+                            <li><i class="fa-solid fa-house"></i> Shop 405, 4/F, FoodLoft, Mira Place 1, 132 Nathan  Road, Tsim Sha Tsui</li>
+                            <li><i class="fa-solid fa-calendar-days"></i> 11:00 - 22:00</li>
+                            <li><i class="fa-solid fa-phone"></i> +852 21579949</li>
+                            <li><i class="fa-solid fa-envelope"></i> tbc</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-6 col-lg-3">
+
+                    </div>
+                    <div class="col-6 col-lg-9">
+                        <h3>Moon Lok Chiu Chow (Citygate)</h3>
+                        <ul style="line-height: 40px; font-size: 20px;">
+                            <li><i class="fa-solid fa-house"></i> Shop 22, G/F, Citygate Outlets, 20 Tat Tung Road, Tung Chung</li>
+                            <li><i class="fa-solid fa-calendar-days"></i> 10:30 - 22:30</li>
+                            <li><i class="fa-solid fa-phone"></i> +852 21168149</li>
+                            <li><i class="fa-solid fa-envelope"></i> tbc</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-6 col-lg-3 text-center">
+
+                    </div>
+                    <div class="col-6 col-lg-9">
+                        <h3>Moon Lok Chiu Chow (Shenzhen)</h3>
+                        <ul style="line-height: 40px; font-size: 20px;">
+                            <li><i class="fa-solid fa-house"></i> 5001 Huanggang Road, Shenzhen Upper Hills (South District), Lianhua First Village Community, Huafu Street, Futian District</li>
+                            <li><i class="fa-solid fa-calendar-days"></i> 09:30 - 21:30</li>
+                            <li><i class="fa-solid fa-phone"></i> +852-21168149</li>
+                            <li><i class="fa-solid fa-envelope"></i> tbc</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section-head text-center mt-5" id="contact-form">
                     <h2 class="title">Contact Us</h2>
                 </div>
                 <form class="dzForm dezPlaceAni" method="POST" action="https://swigo.w3itexpert.com/xhtml/assets/script/contact_smtp.php">
@@ -180,7 +265,7 @@
                             </div>
                         </div>
                         <div class="col-12 text-center">
-                            <button name="submit" value="submit" type="submit" class="btn btn-primary btn-hover-1"><span>Book A Table</span></button>
+                            <button name="submit" value="submit" type="submit" class="btn btn-primary btn-hover-1"><span>Submit</span></button>
                         </div>
                     </div>
                 </form>
@@ -190,10 +275,6 @@
 
     </div>
 <!--    Map Start-->
-    <section>
-        <div class="map-iframe style-1">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236161.13768968167!2d113.97459101369066!3d22.352957629908833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403e2eda332980f%3A0xf08ab3badbeac97c!2sHong%20Kong!5e0!3m2!1sen!2sbd!4v1695730944830!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div></section>
     <!--    Map end--><!---->
 
     <!--Footer-->

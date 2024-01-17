@@ -100,7 +100,74 @@
             </div>
         </section>
         <!-- Product Detail Section -->
-
+        <div class="content-inner pt-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="nav nav-tabs tabs-style-1">
+                            <li class="nav-item">
+                                <button class="nav-link active" data-bs-toggle="tab" href="#web-design-1">
+                                    <i class="icon-globe"></i>
+                                    <span class="d-none d-md-inline-block m-l10">Description</span>
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" href="#graphic-design-1">
+                                    <i class="icon-image"></i>
+                                    <span class="d-none d-md-inline-block m-l10">Additional Information</span>
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="web-design-1" class="tab-pane active">
+                                <p class="m-b10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't hidden in the middle of text.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                                <ul class="list-check primary">
+                                    <li>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and </li>
+                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </li>
+                                </ul>
+                            </div>
+                            <div id="graphic-design-1" class="tab-pane">
+                                <table class="table-bordered check-tbl">
+                                    <tr>
+                                        <td>Cheese Burger</td>
+                                        <td>Small, Medium & Large</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Toppings</td>
+                                        <td>Onion, Tomato, Olives</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rating</td>
+                                        <td>
+											<span class="rating-bx">
+												<i class="fas fa-star text-secondary"></i>
+												<i class="fas fa-star text-secondary"></i>
+												<i class="fas fa-star text-secondary"></i>
+												<i class="fas fa-star text-secondary"></i>
+												<i class="far fa-star text-secondary"></i>
+											</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Shipping Charges</td>
+                                        <td>Free Shipping</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Add More</td>
+                                        <td>Coke, Cheese, Choco lava</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Delivery Time</td>
+                                        <td>30 mins</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
