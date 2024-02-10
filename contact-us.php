@@ -210,7 +210,7 @@
                     <div class="col-6 col-lg-3 text-center">
 
                     </div>
-                    <div class="col-6 col-lg-9">
+                    <div class="col-6 col-lg-9" id="contact-form">
                         <h3>Moon Lok Chiu Chow (Shenzhen)</h3>
                         <ul style="line-height: 40px; font-size: 20px;">
                             <li><i class="fa-solid fa-house"></i> 5001 Huanggang Road, Shenzhen Upper Hills (South District), Lianhua First Village Community, Huafu Street, Futian District</li>
@@ -221,7 +221,7 @@
                     </div>
                 </div>
 
-                <div class="section-head text-center mt-5" id="contact-form">
+                <div class="section-head text-center mt-5">
                     <h2 class="title">Contact Us</h2>
                 </div>
                 <form class="dzForm dezPlaceAni" method="POST" action="https://swigo.w3itexpert.com/xhtml/assets/script/contact_smtp.php">

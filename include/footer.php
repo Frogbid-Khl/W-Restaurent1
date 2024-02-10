@@ -1,4 +1,4 @@
-<footer class="site-footer style-2 mt-lg-5" id="footer">
+<footer class="site-footer style-2 mt-lg-5">
     <div class="footer-bg-wrapper" id="app-banner">
         <div class="footer-top mt-3">
             <div class="container">
@@ -20,22 +20,21 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                         <div class="widget widget_services">
-                            <h5 class="footer-title">Our Links</h5>
                             <ul>
                                 <li><a href="index.php"><span>Home</span></a></li>
                                 <li><a href="event.php"><span>Event & Catering</span></a></li>
-                                <li><a href="news.php"><span>News & Press</span></a></li>
+                                <li><a href="news.php"><span>Food & Culture</span></a></li>
                                 <li><a href="shop.php"><span>Eshop</span></a></li>
                                 <li><a href="contact-us.php"><span>Location</span></a></li>
+                                <li><a href="#"><span>Restaurants</span></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6	">
                         <div class="widget widget_services">
-                            <h5 class="footer-title">Help Center</h5>
                             <ul>
                                 <li><a href="contact-us.php#contact-form"><span>Contact Us</span></a></li>
-                                <li style="display: flex;"><a href="#"><span><i class="fa-brands fa-2x fa-facebook"></i></span></a><a style="padding-left: 20px;" href="#"><span><i class="fa-brands fa-2x fa-instagram"></i></span></a></li>
+                                <li style="display: flex;"><a href="#"><span><i class="fa-brands fa-2x fa-facebook"></i></span></a><a style="padding-left: 20px;" href="#"><span><i class="fa-brands fa-2x fa-instagram"></i></span></a><a href="#" style="padding-left: 20px;"><span><i class="fa-brands fa-2x fa-whatsapp"></i></span></a></li>
                                 <li></li>
                             </ul>
                         </div>
@@ -55,3 +54,5 @@
         </div>
     </div>
 </footer>
+
+

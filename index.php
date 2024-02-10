@@ -73,7 +73,6 @@
                                         <div class="col-xl-7 col-lg-7 col-md-8">
                                             <div class="banner-content">
                                                 <h1 class="title text-white" style="font-weight: bold">PAK LOH CHIU CHOW </h1>
-                                                <p class="bnr-text">Pak Loh Chiu Chow Restaurant, an award-winning pioneer in Chiu Chow cuisine with over 50 years of history, is proud to be spreading Chiu Chow culture through authentic and exquisite cuisine.</p>
                                             </div>
                                         </div>
                                         <div class="col-xl-5 col-lg-5 col-md-4">
@@ -91,7 +90,6 @@
                                         <div class="col-xl-7 col-lg-7 col-md-8">
                                             <div class="banner-content">
                                                 <h1 class="title text-white" style="font-weight: bold">MOON LOK CHIU CHOW </h1>
-                                                <p class="bnr-text">Moon Lok Chiu Chow holds the meaning of “Full of Happiness”, comprising three styles of Chiu Chow cuisine – Street style (Daa Laang), Hong Kong-inspired & Southeast Asian style.</p>
                                             </div>
                                         </div>
                                         <div class="col-xl-5 col-lg-5 col-md-4">
@@ -114,37 +112,48 @@
             </div>
         </div>
         <!-- Banner  -->
-        <div class="container" style="background-image:url('assets/images/main-slider/slider2/bg4.jpg')  ;border-radius: 2rem; background-size:cover; margin-top: 3rem;">
+        <div class="container" style="margin-top: 3rem;">
             <div class="container-fluid " style="padding: 50px">
                 <div class="dz-bnr-inr-entry justify-content-center">
-                    <h6 class="title wow flipInX text-white fs-2 pt-5 text-center">SHOP WITH US ONLINE</h6>
+                    <h6 class="title wow flipInX fs-2 pt-5 text-center" style="color: #9e8467;">SHOP WITH US ONLINE</h6>
                     <ul class="dish-gallery gallery-grid-2">
                         <li style="width: 33.3%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
                             <a href="#">
-                                <div class="gallery-box-1">
+                                <div class="gallery-box-1 text-center">
                                     <img src="assets/images/gallery/new/2.jpg" alt="/">
-                                    <span class="category text-dark">Tea</span>
+                                    <div class="row">
+                                        <div class="col-12" style="background-color: #2b515c;">
+                                            <h3 class="category text-white">Tea</h3>
+                                        </div>
+                                    </div>
                                 </div>
                             </a>
-                            <a class="btn btn-primary text-center mt-3" href="#">Shop Now</a>
+                            <!--<a class="btn btn-primary text-center mt-3" href="#">Shop Now</a>-->
                         </li>
                         <li style="width: 33.3%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
                             <a href="#" style="text-align: center;">
-                                <div class="gallery-box-1">
+                                <div class="gallery-box-1 text-center">
                                     <img src="assets/images/gallery/new/3.jpg" alt="/">
-                                    <span class="category text-dark">Package</span>
+                                    <div class="row">
+                                        <div class="col-12" style="background-color: #2b515c;">
+                                            <h3 class="category text-white">Package</h3>
+                                        </div>
+                                    </div>
                                 </div>
                             </a>
-                            <a class="btn btn-primary text-center mt-3" href="#">Shop Now</a>
                         </li>
                         <li style="width: 33.3%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
                             <a href="#">
-                                <div class="gallery-box-1">
+                                <div class="gallery-box-1 text-center">
                                     <img src="assets/images/gallery/new/1.jpg" alt="/">
-                                    <span class="category text-dark">XO Sauce</span>
+                                    <div class="row">
+                                        <div class="col-12" style="background-color: #2b515c;">
+                                            <h3 class="category text-white">XO Sauce</h3>
+                                        </div>
+                                    </div>
                                 </div>
                             </a>
-                            <a class="btn btn-primary text-center mt-3" href="#">Shop Now</a>
+                            <!--<a class="btn btn-primary text-center mt-3" href="#">Shop Now</a>-->
                         </li>
                     </ul>
                 </div>
@@ -164,30 +173,34 @@
                                 <h4 class="m-b15">Signature Dish</h4>
                                 <ul class="dish-gallery gallery-grid-2">
                                     <li>
-                                        <a href="#">
+                                        <a href="#" class="gallery-link">
                                             <div class="gallery-box-1">
                                                 <img src="assets/images/gallery/grid5/pic1.jpg" alt="/">
+                                                <div class="overlay-text">Burned Giant Conch</div>
                                             </div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="#" class="gallery-link">
                                             <div class="gallery-box-1">
                                                 <img src="assets/images/gallery/grid5/pic5.jpg" alt="/">
+                                                <div class="overlay-text"></div>
                                             </div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="#" class="gallery-link">
                                             <div class="gallery-box-1">
                                                 <img src="assets/images/gallery/grid5/pic7.jpg" alt="/">
+                                                <div class="overlay-text">Sweetened Mashed Taro with Ginko</div>
                                             </div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="#" class="gallery-link">
                                             <div class="gallery-box-1">
                                                 <img src="assets/images/gallery/grid5/pic4.jpg" alt="/">
+                                                <div class="overlay-text">Fried Chicken with Crispy Loosestrife</div>
                                             </div>
                                         </a>
                                     </li>
@@ -202,33 +215,33 @@
 
         <!--Today's Special-->
         <section class="section-wrapper-5 content-inner overflow-hidden bg-parallax" style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="section-head text-center">
                     <h2 class="title text-white wow flipInX" data-wow-delay="0.2s" data-wow-delay="2s">Seasonal Special</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="">
                             <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic1.jpg" alt="/">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="">
                             <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic2.jpg" alt="/">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="">
                             <div class="">
                                 <img src="assets/images/gallery/grid3/pic3.jpg" alt="/">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 mt-5 wow fadeInUp" data-wow-delay="0.10s">
+                    <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.10s">
                         <div class="">
                             <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic4.jpg" alt="/">

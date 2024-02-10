@@ -16952,7 +16952,7 @@ section {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    width: 180px;
+    max-width: 360px;
     height: 100px;
     position: relative;
     z-index: 9;
@@ -16993,7 +16993,7 @@ section {
 
 @media only screen and (max-width: 575px) {
     .logo-header img {
-        max-width: 150px;
+        max-width: 90px;
     }
 }
 
@@ -18396,7 +18396,7 @@ section {
 
 .site-header.style-2 .main-bar {
     box-shadow: none;
-    padding: 15px 0;
+    padding: 15px 0 0 0;
 }
 
 .site-header.style-2 .main-bar .container-fluid, .site-header.style-2 .main-bar .container-sm, .site-header.style-2 .main-bar .container-md, .site-header.style-2 .main-bar .container-lg, .site-header.style-2 .main-bar .container-xl {
@@ -19276,6 +19276,7 @@ footer .dz-meta ul li a {
 .site-footer .widget_services ul li a {
     color: #CCCCCC;
     font-weight: 400;
+    font-size: 24px;
 }
 
 .site-footer .widget_services ul li a::before {
@@ -35876,5 +35877,34 @@ img {
 
 .card-img-top {
     width: 100%;
+}
+
+
+.gallery-link {
+    position: relative;
+    display: inline-block;
+}
+
+.gallery-box-1 {
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0 0 0 / 0%);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    /* text-align: center; */
+    font-size: 32px;
+}
+
+@media only screen and (max-width: 992px) {
+    .overlay-text {
+        font-size: 16px;
+    }
 }
 /*# sourceMappingURL=style.css.map */

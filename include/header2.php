@@ -6,6 +6,7 @@
 
                 <!-- Website Logo -->
                 <div class="logo-header mostion">
+                    <a href="index.php" class="anim-logo"><img src="assets/images/logo.png" alt="/"></a>
                     <a href="pak-loh.php" class="anim-logo"><img src="assets/images/logo/logo1.png" alt="/"></a>
                     <a href="moon-lok.php" class="anim-logo"><img src="assets/images/logo/logo3.png" alt="/" style="margin-left: 20px;"></a>
                 </div>
@@ -41,7 +42,7 @@
                             </ul>
                         </li>
                         <li><a href="event.php">Event & Catering</a>
-                        <li><a href="news.php">News & Press</a>
+                        <li><a href="news.php">Food & Culture</a>
                         </li>
                         <li><a href="shop.php">Eshop</a>
                         </li>
@@ -58,7 +59,10 @@
                     </div>
                 </div>
             </div>
+                <div class="row container-fluid" style="background-image: url('assets/images/background/pic1.png'); background-repeat: no-repeat; background-position: center; background-size: cover; height: 10px; width: 100%">
+                </div>
         </div>
+
     </div>
     <!-- Main Header End -->
 

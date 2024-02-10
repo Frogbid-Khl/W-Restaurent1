@@ -16,3 +16,26 @@
 <script src="assets/js/custom.min.js"></script><!-- CUSTOM JS -->
 <script src="assets/vendor/rangeslider/rangeslider.js"></script><!-- CUSTOM JS -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js'></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Check if there's a hash in the URL
+        if (window.location.hash) {
+            var hash = window.location.hash.substring(1); // Remove the '#' from the hash
+            scrollToSection(hash);
+        }
+    });
+
+    function scrollToSection(id) {
+        var element = document.getElementById(id);
+        if (element) {
+            var windowHeight = window.innerHeight;
+            var scrollOffset = element.getBoundingClientRect().top - (windowHeight / 2) + (element.offsetHeight / 2);
+            window.scrollTo({
+                top: scrollOffset,
+                behavior: 'smooth' // This enables smooth scrolling
+            });
+        }
+    }
+
+</script>
