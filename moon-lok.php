@@ -4,12 +4,43 @@
 <head>
 
     <!-- Title -->
-    <title>Moon lOK </title>
+    <title>Restaurant Website </title>
 
 
     <?php
     include('include/header.php')
     ?>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <style>
+        .slide img {
+            width: 300px; /* Adjust the width to fit 5 images */
+            height: auto;
+            animation: scroll 20s linear infinite;
+        }
+
+        .slide-track1 {
+            width: 100%;
+            display: flex;
+            gap: 1em;
+            overflow: hidden;
+        }
+
+        .slider1 {
+            padding: 0 1em;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translatex(-1000%)
+            }
+        }
+    </style>
 </head>
 <body id="bg">
 
@@ -19,831 +50,261 @@
     <?php
     include('include/header2.php')
     ?>
-    <!-- Header -->
-
-    <div class="contact-sidebar">
-        <div class="contact-box1">
-            <div class="logo-contact logo-header">
-                <a href="index.php" class="anim-logo"><img src="assets/images/logo.png" alt="/"></a>
-            </div>
-
-            <div class="dz-title">
-                <h4 class="m-b20">Contact Info</h4>
-            </div>
-            <div class="icon-bx-wraper left">
-                <div class="icon-md m-r20">
-                    <span class="icon-cell"><i class="las la-phone-volume"></i></span>
-                </div>
-                <div class="icon-content">
-                    <h6 class="tilte">Call Now</h6>
-                    <p class="m-b0">+00000000000000,<br> +000000000</p>
-                </div>
-            </div>
-            <div class="icon-bx-wraper left">
-                <div class="icon-md m-r20">
-                    <span class="icon-cell"><i class="las la-envelope-open"></i></span>
-                </div>
-                <div class="icon-content">
-                    <h6 class="tilte">Location</h6>
-                    <p class="m-b0">Address</p>
-                </div>
-            </div>
-            <div class="icon-bx-wraper left">
-                <div class="icon-md m-r20">
-                    <span class="icon-cell"><i class="las la-map-marker"></i></span>
-                </div>
-                <div class="icon-content">
-                    <h6 class="tilte">Email Now</h6>
-                    <p class="m-b0">info@gmail.com, services@gmail.com</p>
+    <section style="margin-top: 10rem">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="overlay">
+                    </div>
+                    <!-- Slider -->
+                    <div class="responsive">
+                        <div>
+                            <img src="assets/images/restaurant/5.jpg" alt=""/>
+                        </div>
+                        <div>
+                            <img src="assets/images/restaurant/6.jpg" alt=""/>
+                        </div>
+                        <div>
+                            <img src="assets/images/restaurant/4.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <!-- control arrows -->
                 </div>
             </div>
         </div>
-    </div>
-    <div class="menu-close"></div>
-
-    <!-- Banner  -->
-  <!--  <div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/main-slider/slider2/pic1.png'); background-size:cover; background-position:center;">
         <div class="container">
-            <div class="dz-bnr-inr-entry">
-                <h1>About Us</h1>
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-12 col-lg-3">
+                    <img class="img-fluid" src="assets/images/logo/logo.1.jpg" alt="">
+                </div>
+                <div class="col-12 col-lg-9">
+                    <p>Since opening its doors in 1967, Pak Loh Chiu Chow has withstood the test of time and continues
+                        to serve its loyal customers authentic Chiu Chow food. Aside from the existing Pak Loh Chiu Chow
+                        outlets under Buick Management Limited, they have since branched out to include Moon Lok Chiu
+                        Chow and Moon Lok Chinese restaurants.
+                    </p>
+                    <p>
 
+                        Moon Lok Chiu Chow holds the meaning of “Full of Happiness”, comprising two cuisine. The Daa
+                        Laang cuisine is centred around street comforts and local delicacies served in casual setting.
+                        The Hong Kong Style uses more refined hours to create complex and well-balanced gourmets.
+                    </p>
+                    <p>
+
+                        We at Buick Management Limited are proud of our heritage and hope to continue to bring happiness
+                        and delightful culinary experiences to all that visit our establishments.
+
+                    </p>
+                </div>
             </div>
         </div>
-    </div>-->
-    <!-- Banner End -->
-    <div class="page-content bg-white mt-lg-5">
-
-        <section class="section-wrapper-5 content-inner overflow-hidden  mt-lg-5"
-                 style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
-            <div class="container -5">
-                <div class="section-head text-center text-white">
-                    <h6 class="title wow flipInX text-white fs-1">MOON LOK CHIU CHOW</h6>
-
+        <div class="container mt-5">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h3>Awards</h3>
                 </div>
-                <div>
-                    <p class="text-white">Moon Lok Chiu Chow holds the meaning of “Full of Happiness”, comprising three styles of Chiu Chow cuisine – Street style (Daa Laang), Hong Kong-inspired & Southeast Asian style. The Daa Laang cuisine is centered around street comforts and local delicacies served in casual setting. The Hong Kong Style uses more refined ingredients and hand-crafted dishes which are meticulously prepared for hours to create complex and well-balanced gourmets. The last style, is the Southeast Asian take on traditional Chiu Chow cuisine and fusion dishes, such as Bak Kuh Teh, Noodles in Soy-marinated Goose Broth and Chow Kway Teo.</p>
-
-                </div>
-
             </div>
-        </section>
-        <!-- Chef Details start-->
-        <section>
-            <div class="container mt-lg-5">
-                <div class="row">
-                    <div class="col-12">
-                        <!--<div class="team-detail">
-                            <div class="dz-media rounded-md">
-                                <img src="assets/images/team/detail/pic1.jpg" alt="/">
-                            </div>
-                            <div class="dz-info">
-                                <div class="head">
-                                    <h2 class="title">John Doe</h2>
-                                    <span class="sub-title text-primary">Restaurant Chef</span>
-                                </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <ul class="team-info">
-                                    <li><strong>Responsibility:</strong>Senior Chef</li>
-                                    <li><strong>Experience:</strong>10 Year</li>
-                                    <li><strong>Email:</strong>Example@gmail.com</li>
-                                    <li><strong>Phone:</strong>+33 44 3333 4444</li>
-                                </ul>
-                                <div class="dz-social-icon">
-                                    <ul>
-                                        <li><a target="_blank" class="btn-md text-dark"
-                                               href="https://www.facebook.com/">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </a></li>
-                                        <li><a target="_blank" class="btn-md text-dark" href="https://twitter.com/">
-                                                <i class="fab fa-twitter"></i>
-                                            </a></li>
-                                        <li><a target="_blank" class="btn-md text-dark" href="https://www.youtube.com/">
-                                                <i class="fa-brands fa-youtube"></i>
-                                            </a></li>
-                                        <li><a target="_blank" class="btn-md text-dark"
-                                               href="https://www.instagram.com/">
-                                                <i class="fab fa-instagram"></i>
-                                            </a></li>
-                                        <li><a target="_blank" class="btn-md text-dark"
-                                               href="https://www.linkedin.com/feed/">
-                                                <i class="fa-brands fa-linkedin"></i>
-                                            </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>-->
-                        <div class="team-bio">
-                            <h4 class="m-b10">Biography</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                printer took a galley of type and scrambled it to make a type specimen book. It has
-                                survived not only five centuries,</p>
-                        </div>
+            <div class="slider1">
+                <div class="slide-track1">
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/3.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/4.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/5.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/6.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/7.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/3.png" alt="">
                     </div>
                 </div>
             </div>
-
-            <!--Today's Special-->
-            <section class="section-wrapper-5 content-inner overflow-hidden bg-parallax"
-                     style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
-                <div class="container">
-                    <div class="section-head text-center">
-                        <h2 class="title text-white wow flipInX" data-wow-delay="0.2s" data-wow-delay="2s">Offical Photos (CityGate)</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="">
-                                <div class="dz-media">
-                                    <img src="assets/images/gallery/grid4/Untitled-4_0006_Layer%206.jpg" alt="/">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="">
-                                <div class="dz-media">
-                                    <img src="assets/images/gallery/grid4/Untitled-4_0007_Layer%205.jpg" alt="/">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
-                            <div class="">
-                                <div class="">
-                                    <img src="assets/images/gallery/grid4/Untitled-4_0008_Layer%204.jpg" alt="/">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.10s">
-                            <div class="">
-                                <div class="dz-media">
-                                    <img src="assets/images/gallery/grid4/Untitled-4_0009_Layer%203.jpg" alt="/">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp pt-3" data-wow-delay="0.12s">
-                            <div class="">
-                                <div class="dz-media">
-                                    <img src="assets/images/gallery/grid4/Untitled-4_0010_Layer%202.jpg" alt="/">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--Today's Special-->
+        </div>
 
 
-
-
-            <div class="container mt-5">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-xl-5 col-lg-6 m-b10">
-                                <h4 class="m-b15">Signature Dish</h4>
-                                <ul class="dish-gallery gallery-grid-2">
-                                    <li>
-                                        <a href="#">
-                                            <div class="gallery-box-1">
-                                                <img src="assets/images/gallery/grid4/F-310-300x200.jpg" alt="/">
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="gallery-box-1">
-                                                <img src="assets/images/gallery/grid4/F-311-300x200.jpg" alt="/">
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="gallery-box-1">
-                                                <img src="assets/images/gallery/grid4/F-312-300x200.jpg" alt="/">
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="gallery-box-1">
-                                                <img src="assets/images/gallery/grid4/F-313-300x200.jpg" alt="/">
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-xl-7 col-lg-6 m-b30">
-                                <div class="team-skills">
-                                    <h4 class="m-b10" style="padding-left: 47px;">LOCATION</h4>
-                                    <div class="team-detail">
-                                        <div class="dz-info">
-                                            <ul class="team-info">
-                                                <li><strong style="font-weight: bold">Address:</strong>Unit G22, G/F, Citygate, 20 Tat Tung Road, <br>
-                                                    Tung Chung, Lantau Island, N.T.</li>
-                                                <li><strong style="font-weight: bold">E-mail :</strong>ml.citygate@buick-hk.com</li>
-                                                <li><strong style="font-weight: bold">Tel : </strong>2116 8149</li>
-                                                <li><strong style="font-weight: bold">Business Hour(Elements):</strong>Mon – Fri: 11:00 – 22:30 <br>
-                                                    Sat, Sun & PHs: 10:00 – 22:30</li>
-                                            </ul>
-
-                                            <ul class="team-info">
-                                                <li><strong style="font-weight: bold">Address:</strong>Shop 405, L4, FoodLoft, Mira Place One, <br> 132 Nathan Road,
-                                                    Tsim Sha Tsui, Kowloon</li>
-                                                <li><strong style="font-weight: bold">E-mail :</strong> chateh.tst@buick-hk.com</li>
-                                                <li><strong style="font-weight: bold">Tel : </strong>2157 9949</li>
-                                                <li><strong style="font-weight: bold">Business Hour(Elements):</strong>Mon – Fri: 11:00 – 22:30 <br>
-                                                    Sat, Sun & PHs: 10:00 – 22:30</li>
-                                            </ul>
-
-
-
-
-                                            <!-- <div class="dz-social-icon">
-                                                 <ul>
-                                                     <li><a target="_blank" class="btn-md text-dark"
-                                                            href="https://www.facebook.com/">
-                                                             <i class="fab fa-facebook-f"></i>
-                                                         </a></li>
-                                                     <li><a target="_blank" class="btn-md text-dark" href="https://twitter.com/">
-                                                             <i class="fab fa-twitter"></i>
-                                                         </a></li>
-                                                     <li><a target="_blank" class="btn-md text-dark" href="https://www.youtube.com/">
-                                                             <i class="fa-brands fa-youtube"></i>
-                                                         </a></li>
-                                                     <li><a target="_blank" class="btn-md text-dark"
-                                                            href="https://www.instagram.com/">
-                                                             <i class="fab fa-instagram"></i>
-                                                         </a></li>
-                                                     <li><a target="_blank" class="btn-md text-dark"
-                                                            href="https://www.linkedin.com/feed/">
-                                                             <i class="fa-brands fa-linkedin"></i>
-                                                         </a></li>
-                                                 </ul>
-                                             </div>-->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="container mt-5">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h3>Mira</h3>
                 </div>
             </div>
-        </section>
-        <!-- Chef Details end-->
-        <!-- Browser Our Menu -->
+            <div class="row mt-3">
+                <div class="col-12 col-lg-4">
+                    <a href="assets/images/restaurant/moon/6.jpg" class="image-link">
+                        <img src="assets/images/restaurant/moon/6.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                    <!--<a href="contact-us.php" class="btn btn-primary">Contact Us</a>-->
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 col-lg-8 order-1 order-lg-0">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                    <!--<a href="event.php" class="btn btn-primary">Reservation</a>-->
+                </div>
+                <div class="col-12 col-lg-4 order-0 order-lg-1">
+                    <a href="assets/images/restaurant/moon/7.jpg" class="image-link">
+                        <img src="assets/images/restaurant/moon/7.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 col-lg-4">
+                    <a href="assets/images/restaurant/moon/8.jpg" class="image-link">
+                        <img src="assets/images/restaurant/moon/8.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                    <!--<a href="event.php" class="btn btn-primary">Reservation</a>-->
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center mt-3">
+                <div class="col-3 d-flex align-items-center justify-content-center">
+                    <a href="event.php" class="btn btn-primary">Reservation</a>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h3>Citygate</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <a href="assets/images/restaurant/moon/4.jpg" class="image-link">
+                        <img src="assets/images/restaurant/moon/4.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 col-lg-8 order-1 order-lg-0">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                </div>
+                <div class="col-12 col-lg-4 order-0 order-lg-1">
+                    <a href="assets/images/restaurant/moon/5.jpg" class="image-link">
+                        <img src="assets/images/restaurant/moon/5.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center mt-3">
+                <div class="col-3 d-flex align-items-center justify-content-center">
+                    <a href="event.php" class="btn btn-primary">Reservation</a>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h3>Shenzhen</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <a href="assets/images/restaurant/moon/1.jpg" class="image-link">
+                        <img src="assets/images/restaurant/moon/1.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 col-lg-8 order-1 order-lg-0">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                </div>
+                <div class="col-12 col-lg-4 order-0 order-lg-1">
+                    <a href="assets/images/restaurant/moon/2.jpg" class="image-link">
+                        <img src="assets/images/restaurant/moon/2.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <a href="assets/images/restaurant/moon/3.jpg" class="image-link">
+                        <img src="assets/images/restaurant/moon/3.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-        <!--      <section class="content-inner-1 overflow-hidden pt-0">
-                  <div class="container mt-lg-5 ">
-                      <div class="section-head menu-align">
-                          <h2 class="title mb-0 wow flipInX " data-wow-delay="0.2s" data-wow-delay="2s">Browse Our Menu</h2>
-                          <div class="pagination-align wow fadeInUp" data-wow-delay="0.4s">
-                              <div class="menu-button-prev1 btn-prev rounded-xl btn-hover-2"><i class="fa-solid fa-arrow-left"></i></div>
-                              <div class="menu-button-next1 btn-next rounded-xl btn-hover-2"><i class="fa-solid fa-arrow-right"></i></div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="container">
-                      <div class="swiper menu-swiper swiper-visible swiper-item-4">
-                          <div class="swiper-wrapper">
-                              <div class="swiper-slide">
-                                  <div class="dz-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.4s">
-                                      <div class="menu-detail">
-                                          <div class="dz-media">
-                                              <img src="assets/images/menu-small/pic1.png" alt="/">
-                                          </div>
-                                          <div class="dz-content">
-                                              <h6 class="title"><a href="product-detail.html">Burger</a></h6>
-                                              <p>Delicious and Spicy</p>
-                                          </div>
-                                      </div>
-                                      <div class="menu-footer">
-                                          <span>Regular Price</span>
-                                          <span class="price">$10.00</span>
-                                      </div>
-                                      <a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="dz-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.4s">
-                                      <div class="menu-detail">
-                                          <div class="dz-media">
-                                              <img src="assets/images/menu-small/pic2.png" alt="/">
-                                          </div>
-                                          <div class="dz-content">
-                                              <h6 class="title"><a href="product-detail.html">Hot Rice</a></h6>
-                                              <p>Delicious and Spicy</p>
-                                          </div>
-                                      </div>
-                                      <div class="menu-footer">
-                                          <span>Regular Price</span>
-                                          <span class="price">$15.00</span>
-                                      </div>
-                                      <a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="dz-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.6s">
-                                      <div class="menu-detail">
-                                          <div class="dz-media">
-                                              <img src="assets/images/menu-small/pic3.png" alt="/">
-                                          </div>
-                                          <div class="dz-content">
-                                              <h6 class="title"><a href="product-detail.html">Momos</a></h6>
-                                              <p>Delicious and Spicy</p>
-                                          </div>
-                                      </div>
-                                      <div class="menu-footer">
-                                          <span>Regular Price</span>
-                                          <span class="price">$25.00</span>
-                                      </div>
-                                      <a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="dz-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.8s">
-                                      <div class="menu-detail">
-                                          <div class="dz-media">
-                                              <img src="assets/images/menu-small/pic4.png" alt="/">
-                                          </div>
-                                          <div class="dz-content">
-                                              <h6 class="title"><a href="product-detail.html">Pasta</a></h6>
-                                              <p>Delicious and Spicy</p>
-                                          </div>
-                                      </div>
-                                      <div class="menu-footer">
-                                          <span>Regular Price</span>
-                                          <span class="price">$45.00</span>
-                                      </div>
-                                      <a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="dz-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.10s">
-                                      <div class="menu-detail">
-                                          <div class="dz-media">
-                                              <img src="assets/images/menu-small/pic5.png" alt="/">
-                                          </div>
-                                          <div class="dz-content">
-                                              <h6 class="title"><a href="product-detail.html">Panner</a></h6>
-                                              <p>Delicious and Spicy</p>
-                                          </div>
-                                      </div>
-                                      <div class="menu-footer">
-                                          <span>Regular Price</span>
-                                          <span class="price">$20.00</span>
-                                      </div>
-                                      <a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="dz-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.12s">
-                                      <div class="menu-detail">
-                                          <div class="dz-media">
-                                              <img src="assets/images/menu-small/pic6.png" alt="/">
-                                          </div>
-                                          <div class="dz-content">
-                                              <h6 class="title"><a href="product-detail.html">Soya Rice</a></h6>
-                                              <p>Delicious and Spicy</p>
-                                          </div>
-                                      </div>
-                                      <div class="menu-footer">
-                                          <span>Regular Price</span>
-                                          <span class="price">$90.00</span>
-                                      </div>
-                                      <a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="dz-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.4s">
-                                      <div class="menu-detail">
-                                          <div class="dz-media">
-                                              <img src="assets/images/menu-small/pic1.png" alt="/">
-                                          </div>
-                                          <div class="dz-content">
-                                              <h6 class="title"><a href="product-detail.html">Burger</a></h6>
-                                              <p>Delicious and Spicy</p>
-                                          </div>
-                                      </div>
-                                      <div class="menu-footer">
-                                          <span>Regular Price</span>
-                                          <span class="price">$10.00</span>
-                                      </div>
-                                      <a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="dz-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.4s">
-                                      <div class="menu-detail">
-                                          <div class="dz-media">
-                                              <img src="assets/images/menu-small/pic2.png" alt="/">
-                                          </div>
-                                          <div class="dz-content">
-                                              <h6 class="title"><a href="product-detail.html">Hot Rice</a></h6>
-                                              <p>Delicious and Spicy</p>
-                                          </div>
-                                      </div>
-                                      <div class="menu-footer">
-                                          <span>Regular Price</span>
-                                          <span class="price">$15.00</span>
-                                      </div>
-                                      <a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </section>-->
-
-
-        <!-- Browser Our Menu -->
-
-        <!-- Are Menu-->
-        <!--     <section class="content-inner-1">
-                 <div class="container">
-                     <div class="section-head text-center">
-                         <h2 class="title wow flipInX" data-wow-delay="0.2s" data-wow-delay="2s">Are Menu</h2>
-                     </div>
-                     <div class="row">
-                         <div class="col-lg-12 text-center wow fadeInUp" data-wow-delay="0.4s">
-                             <div class="site-filters style-2 clearfix">
-                                 <ul class="filters" data-bs-toggle="buttons">
-                                     <li data-filter=".All" class="btn active"><a href="javascript:void(0);"><span><i class="flaticon-fast-food"></i></span>All</a></li>
-                                     <li data-filter=".drink" class="btn"><a href="javascript:void(0);"><span><i class="flaticon-cocktail"></i></span>COLD DRINK</a></li>
-                                     <li data-filter=".pizza" class="btn"><a href="javascript:void(0);"><span><i class="flaticon-pizza-slice"></i></span>PIZZA</a></li>
-                                     <li data-filter=".salad" class="btn active"><a href="javascript:void(0);"><span><i class="flaticon-salad"></i></span>SALAD</a></li>
-                                     <li data-filter=".sweet" class="btn active"><a href="javascript:void(0);"><span><i class="flaticon-cupcake"></i></span>SWEETS</a></li>
-                                     <li data-filter=".spicy" class="btn active"><a href="javascript:void(0);"><span><i class="flaticon-chili-pepper"></i></span>SPICY</a></li>
-                                     <li data-filter=".burger" class="btn active"><a href="javascript:void(0);"><span><i class="flaticon-hamburger-1"></i></span>BURGER</a></li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="clearfix">
-                         <ul id="masonry" class="row dlab-gallery-listing gallery">
-                             <li class="card-container col-lg-6 col-md-6 m-b5 All drink sweet salad">
-                                 <div class="dz-img-box style-6 wow fadeInUp" data-wow-delay="0.4s">
-                                     <div class="dz-media">
-                                         <img src="assets/images/menu-small/grid/pic1.png" alt="/">
-                                     </div>
-                                     <div class="dz-content">
-                                         <div class="dz-head">
-                                             <span class="header-text"><a href="our-menu-1.html">Pulled Chicken SandWich</a></span>
-                                             <span class="img-line"></span>
-                                             <span class="header-price">$30</span>
-                                         </div>
-                                         <p class="dz-body">
-                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                         </p>
-                                     </div>
-                                 </div>
-                             </li>
-                             <li class="card-container col-lg-6 col-md-6 m-b5 All pizza sweet">
-                                 <div class="dz-img-box style-6 wow fadeInUp" data-wow-delay="0.4s">
-                                     <div class="dz-media">
-                                         <img src="assets/images/menu-small/grid/pic2.png" alt="/">
-                                     </div>
-                                     <div class="dz-content">
-                                         <div class="dz-head">
-                                             <span class="header-text"><a href="our-menu-1.html">BBQ Chicken Sandwich</a></span>
-                                             <span class="img-line"></span>
-                                             <span class="header-price">$30</span>
-                                         </div>
-                                         <p class="dz-body">
-                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                         </p>
-                                     </div>
-                                 </div>
-                             </li>
-                             <li class="card-container col-lg-6 col-md-6 m-b5 All salad spicy">
-                                 <div class="dz-img-box style-6 wow fadeInUp" data-wow-delay="0.6s">
-                                     <div class="dz-media">
-                                         <img src="assets/images/menu-small/grid/pic3.png" alt="/">
-                                     </div>
-                                     <div class="dz-content">
-                                         <div class="dz-head">
-                                             <span class="header-text"><a href="our-menu-1.html">Canada Dry Ginger Ale</a></span>
-                                             <span class="img-line"></span>
-                                             <span class="header-price">$60</span>
-                                         </div>
-                                         <p class="dz-body">
-                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                         </p>
-                                     </div>
-                                 </div>
-                             </li>
-                             <li class="card-container col-lg-6 col-md-6 m-b5 All drink spicy sweet">
-                                 <div class="dz-img-box style-6 wow fadeInUp" data-wow-delay="0.6s">
-                                     <div class="dz-media">
-                                         <img src="assets/images/menu-small/grid/pic4.png" alt="/">
-                                     </div>
-                                     <div class="dz-content">
-                                         <div class="dz-head">
-                                             <span class="header-text"><a href="our-menu-1.html">Honey Mustard Pasta</a></span>
-                                             <span class="img-line"></span>
-                                             <span class="header-price">$20</span>
-                                         </div>
-                                         <p class="dz-body">
-                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                         </p>
-                                     </div>
-                                 </div>
-                             </li>
-                             <li class="card-container col-lg-6 col-md-6 m-b5 All burger">
-                                 <div class="dz-img-box style-6 wow fadeInUp" data-wow-delay="0.8s">
-                                     <div class="dz-media">
-                                         <img src="assets/images/menu-small/grid/pic5.png" alt="/">
-                                     </div>
-                                     <div class="dz-content">
-                                         <div class="dz-head">
-                                             <span class="header-text"><a href="our-menu-1.html">Martinelli’s Apple Juice</a></span>
-                                             <span class="img-line"></span>
-                                             <span class="header-price">$80</span>
-                                         </div>
-                                         <p class="dz-body">
-                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                         </p>
-                                     </div>
-                                 </div>
-                             </li>
-                             <li class="card-container col-lg-6 col-md-6 m-b5 All pizza burger">
-                                 <div class="dz-img-box style-6 wow fadeInUp" data-wow-delay="0.8s">
-                                     <div class="dz-media">
-                                         <img src="assets/images/menu-small/grid/pic6.png" alt="/">
-                                     </div>
-                                     <div class="dz-content">
-                                         <div class="dz-head">
-                                             <span class="header-text"><a href="our-menu-1.html">Chicken Honey Plate</a></span>
-                                             <span class="img-line"></span>
-                                             <span class="header-price">$80</span>
-                                         </div>
-                                         <p class="dz-body">
-                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                         </p>
-                                     </div>
-                                 </div>
-                             </li>
-                             <li class="card-container col-lg-6 col-md-6 m-b5 All burger salad">
-                                 <div class="dz-img-box style-6 wow fadeInUp" data-wow-delay="0.10s">
-                                     <div class="dz-media">
-                                         <img src="assets/images/menu-small/grid/pic7.png" alt="/">
-                                     </div>
-                                     <div class="dz-content">
-                                         <div class="dz-head">
-                                             <span class="header-text"><a href="our-menu-1.html">Mango Mania Smoothie</a></span>
-                                             <span class="img-line"></span>
-                                             <span class="header-price">$30</span>
-                                         </div>
-                                         <p class="dz-body">
-                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                         </p>
-                                     </div>
-                                 </div>
-                             </li>
-                             <li class="card-container col-lg-6 col-md-6 m-b5 All drink">
-                                 <div class="dz-img-box style-6 wow fadeInUp" data-wow-delay="0.10s">
-                                     <div class="dz-media">
-                                         <img src="assets/images/menu-small/grid/pic8.png" alt="/">
-                                     </div>
-                                     <div class="dz-content">
-                                         <div class="dz-head">
-                                             <span class="header-text"><a href="our-menu-1.html">Jamaican Jerk Sandwich</a></span>
-                                             <span class="img-line"></span>
-                                             <span class="header-price">$80</span>
-                                         </div>
-                                         <p class="dz-body">
-                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                         </p>
-                                     </div>
-                                 </div>
-                             </li>
-                         </ul>
-                     </div>
-                 </div>
-             </section>-->
-        <!-- Are Menu-->
-
-        <!-- Team Section 1 -->
-        <!--      <section class="section-wrapper-4 content-inner overflow-hidden bg-parallax" style="background-image:url('assets/images/background/pic10.png'); background-attachment: fixed;">
-                  <div class="container">
-                      <div class="section-head text-center">
-                          <h2 class="title wow flipInX" data-wow-delay="0.2s">Meet The</h2>
-                      </div>
-                      <div class="swiper team-swiper swiper-btn-lr swiper-visible">
-                          <div class="swiper-wrapper">
-                              <div class="swiper-slide">
-                                  <div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.4s">
-                                      <div class="dz-media">
-                                          <img src="assets/images/team/pic1.jpg" alt="/">
-                                      </div>
-                                      <div class="dz-content">
-                                          <div class="clearfix">
-                                              <h6 class="dz-name"><a href="team-detail.html">Sarah Albert</a></h6>
-                                              <span class="dz-position">Senior Chef</span>
-                                          </div>
-                                          <ul class="team-social">
-                                              <li>
-                                                  <a class="share-btn" href="javascript:void(0);"><i class="flaticon-share"></i></a>
-                                                  <ul class="sub-team-social">
-                                                      <li><a class="fb-btn" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                                      <li><a class="tw-btn" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                                      <li><a class="in-btn" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                                      <li><a class="lin-btn" href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                                  </ul>
-                                              </li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.6s">
-                                      <div class="dz-media">
-                                          <img src="assets/images/team/pic2.jpg" alt="/">
-                                      </div>
-                                      <div class="dz-content">
-                                          <div class="clearfix">
-                                              <h6 class="dz-name"><a href="team-detail.html">John Doe</a></h6>
-                                              <span class="dz-position">Senior Chef</span>
-                                          </div>
-                                          <ul class="team-social">
-                                              <li>
-                                                  <a class="share-btn" href="javascript:void(0);"><i class="flaticon-share"></i></a>
-                                                  <ul class="sub-team-social">
-                                                      <li><a class="fb-btn" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                                      <li><a class="tw-btn" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                                      <li><a class="in-btn" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                                      <li><a class="lin-btn" href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                                  </ul>
-                                              </li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.8s">
-                                      <div class="dz-media">
-                                          <img src="assets/images/team/pic3.jpg" alt="/">
-                                      </div>
-                                      <div class="dz-content">
-                                          <div class="clearfix">
-                                              <h6 class="dz-name"><a href="team-detail.html">Jemy Carline</a></h6>
-                                              <span class="dz-position">Junior Chef</span>
-                                          </div>
-                                          <ul class="team-social">
-                                              <li>
-                                                  <a class="share-btn" href="javascript:void(0);"><i class="flaticon-share"></i></a>
-                                                  <ul class="sub-team-social">
-                                                      <li><a class="fb-btn" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                                      <li><a class="tw-btn" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                                      <li><a class="in-btn" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                                      <li><a class="lin-btn" href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                                  </ul>
-                                              </li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.10s">
-                                      <div class="dz-media">
-                                          <img src="assets/images/team/pic4.jpg" alt="/">
-                                      </div>
-                                      <div class="dz-content">
-                                          <div class="clearfix">
-                                              <h6 class="dz-name"><a href="team-detail.html">Cotlin Care</a></h6>
-                                              <span class="dz-position">Senior Chef</span>
-                                          </div>
-                                          <ul class="team-social">
-                                              <li>
-                                                  <a class="share-btn" href="javascript:void(0);"><i class="flaticon-share"></i></a>
-                                                  <ul class="sub-team-social">
-                                                      <li><a class="fb-btn" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                                      <li><a class="tw-btn" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                                      <li><a class="in-btn" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                                      <li><a class="lin-btn" href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                                  </ul>
-                                              </li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.4s">
-                                      <div class="dz-media">
-                                          <img src="assets/images/team/pic1.jpg" alt="/">
-                                      </div>
-                                      <div class="dz-content">
-                                          <div class="clearfix">
-                                              <h6 class="dz-name"><a href="team-detail.html">Sarah Albert</a></h6>
-                                              <span class="dz-position">Senior Chef</span>
-                                          </div>
-                                          <ul class="team-social">
-                                              <li>
-                                                  <a class="share-btn" href="javascript:void(0);"><i class="flaticon-share"></i></a>
-                                                  <ul class="sub-team-social">
-                                                      <li><a class="fb-btn" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                                      <li><a class="tw-btn" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                                      <li><a class="in-btn" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                                      <li><a class="lin-btn" href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                                  </ul>
-                                              </li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.6s">
-                                      <div class="dz-media">
-                                          <img src="assets/images/team/pic2.jpg" alt="/">
-                                      </div>
-                                      <div class="dz-content">
-                                          <div class="clearfix">
-                                              <h6 class="dz-name"><a href="team-detail.html">John Doe</a></h6>
-                                              <span class="dz-position">Senior Chef</span>
-                                          </div>
-                                          <ul class="team-social">
-                                              <li>
-                                                  <a class="share-btn" href="javascript:void(0);"><i class="flaticon-share"></i></a>
-                                                  <ul class="sub-team-social">
-                                                      <li><a class="fb-btn" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                                      <li><a class="tw-btn" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                                      <li><a class="in-btn" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                                      <li><a class="lin-btn" href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                                  </ul>
-                                              </li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.8s">
-                                      <div class="dz-media">
-                                          <img src="assets/images/team/pic3.jpg" alt="/">
-                                      </div>
-                                      <div class="dz-content">
-                                          <div class="clearfix">
-                                              <h6 class="dz-name"><a href="team-detail.html">Jemy Carline</a></h6>
-                                              <span class="dz-position">Junior Chef</span>
-                                          </div>
-                                          <ul class="team-social">
-                                              <li>
-                                                  <a class="share-btn" href="javascript:void(0);"><i class="flaticon-share"></i></a>
-                                                  <ul class="sub-team-social">
-                                                      <li><a class="fb-btn" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                                      <li><a class="tw-btn" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                                      <li><a class="in-btn" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                                      <li><a class="lin-btn" href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                                  </ul>
-                                              </li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="swiper-slide">
-                                  <div class="dz-team style-1 m-b30 wow fadeInUp" data-wow-delay="0.10s">
-                                      <div class="dz-media">
-                                          <img src="assets/images/team/pic4.jpg" alt="/">
-                                      </div>
-                                      <div class="dz-content">
-                                          <div class="clearfix">
-                                              <h6 class="dz-name"><a href="team-detail.html">Cotlin Care</a></h6>
-                                              <span class="dz-position">Senior Chef</span>
-                                          </div>
-                                          <ul class="team-social">
-                                              <li>
-                                                  <a class="share-btn" href="javascript:void(0);"><i class="flaticon-share"></i></a>
-                                                  <ul class="sub-team-social">
-                                                      <li><a class="fb-btn" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                                      <li><a class="tw-btn" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                                      <li><a class="in-btn" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                                      <li><a class="lin-btn" href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                                  </ul>
-                                              </li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="pagination">
-                              <div class="team-button-prev btn-prev rounded-xl btn-hover-2"><i class="fa-solid fa-arrow-left"></i></div>
-                              <div class="team-button-next btn-next rounded-xl btn-hover-2"><i class="fa-solid fa-arrow-right"></i></div>
-                          </div>
-                      </div>
-                  </div>
-              </section>-->
-        <!-- Team Section 1 -->
-
-
-    </div>
-
-    <!--Footer-->
-
-    <!-- Footer -->
-
-    <div class="scroltop-progress scroltop-primary">
-        <svg width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
-        </svg>
-    </div>
     <?php
     include('include/footer.php')
     ?>
@@ -852,7 +313,67 @@
 <?php
 include('include/js.php')
 ?>
+<script>
+    $(document).ready(function () {
+        $('.image-link').magnificPopup({
+            type: 'image',
+            closeOnContentClick: true,
+            closeBtnInside: false,
+            fixedContentPos: true,
+            mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from magnific popup
+            gallery: {
+                enabled: true,
+                navigateByImgClick: true,
+                preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+            },
+            image: {
+                verticalFit: true
+            },
+            zoom: {
+                enabled: true,
+                duration: 300 // don't forget to change the duration also in CSS
+            }
+        });
+    });
 
+    $('.responsive').slick({
+        dots: false,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next'),
+        infinite: false,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true, // Add autoplay option
+        autoplaySpeed: 3000, // Set autoplay speed to 3 seconds
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+</script>
 </body>
 
 </html>
