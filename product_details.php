@@ -54,10 +54,10 @@
         <section class="content-inner-1 overflow-hidden">
             <div class="container">
                 <div class="row product-detail gallery-container">
-                    <div class="col-lg-4 col-md-5">
+                    <div class="col-lg-6 col-md-6">
                         <div class="detail-media m-b30">
                             <img src="assets/images/shop/1.png" alt="/" class="big-image">
-                            <div class="thumbnail-container" id="thumbnailContainer">
+                            <div class="thumbnail-container d-flex align-items-center justify-content-center" id="thumbnailContainer">
                                 <img src="assets/images/shop/1.png" alt="/" class="thumbnail" onclick="showImage('assets/images/shop/1.png')">
                                 <img src="assets/images/shop/2.png" alt="/" class="thumbnail" onclick="showImage('assets/images/shop/2.png')">
                                 <img src="assets/images/shop/3.png" alt="/" class="thumbnail" onclick="showImage('assets/images/shop/3.png')">
@@ -65,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-md-7">
+                    <div class="col-lg-6 col-md-6">
                         <div class="detail-info">
                             <div class="dz-head">
                                 <h2 class="title">Double Patty Veg Burger</h2>
@@ -92,6 +92,7 @@
                                 <ul class="modal-btn-group">
                                     <li><a href="#" class="btn btn-outline-secondary btn-hover-1"><span><i class="fa-brands fa-facebook"></i> Share</span></a></li>
                                     <li><a href="#" class="btn btn-outline-secondary btn-hover-1"><span><i class="fa-brands fa-instagram"></i> Share</a></span></li>
+                                    <li><a href="#" class="btn btn-outline-secondary btn-hover-1"><span><i class="fa-brands fa-whatsapp"></i> Share</a></span></li>
                                 </ul>
                             </div>
                         </div>

@@ -21,9 +21,10 @@
     <!-- Header -->
     <div class="page-content bg-white">
         <!-- Banner  -->
-        <div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/shop/1.jpg'); background-size:contain; background-position:center;">
-            <div class="container">
-                <div class="dz-bnr-inr-entry">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <img src="assets/images/shop/1.jpg" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -39,17 +40,20 @@
                         </div>
                         <ul id="masonry" class="row">
                             <li class="card-container col-xl-4 col-md-6 m-b30">
-                                <div class="dz-img-box style-7">
-                                    <div class="dz-media">
-                                        <img src="assets/images/shop/3.png" alt="/">
+                                <a href="product_details.php">
+                                    <div class="dz-img-box style-7">
+                                        <div class="dz-media">
+                                            <img src="assets/images/shop/3.png" alt="/">
+                                        </div>
+                                        <div class="dz-content">
+                                            <h5 class="title"><a href="product_details.php">Abalone</a></h5>
+                                            <span class="price">HK$988</span>
+                                        </div>
                                     </div>
-                                    <div class="dz-content">
-                                        <h5 class="title"><a href="product_details.php">Abalone</a></h5>
-                                        <span class="price">HK$988</span>
-                                    </div>
-                                </div>
+                                </a>
                             </li>
                             <li class="card-container col-xl-4 col-md-6 m-b30">
+                                <a href="product_details.php">
                                 <div class="dz-img-box style-7">
                                     <div class="dz-media">
                                         <img src="assets/images/shop/4.png" alt="/">
@@ -59,8 +63,10 @@
                                         <span class="price">HK$36</span>
                                     </div>
                                 </div>
+                                </a>
                             </li>
                             <li class="card-container col-xl-4 col-md-6 m-b30">
+                                <a href="product_details.php">
                                 <div class="dz-img-box style-7">
                                     <div class="dz-media">
                                         <img src="assets/images/shop/4.png" alt="/">
@@ -70,8 +76,10 @@
                                         <span class="price">HK$78</span>
                                     </div>
                                 </div>
+                                </a>
                             </li>
                             <li class="card-container col-xl-4 col-md-6 m-b30">
+                                <a href="product_details.php">
                                 <div class="dz-img-box style-7">
                                     <div class="dz-media">
                                         <img src="assets/images/shop/5.png" alt="/">
@@ -81,8 +89,10 @@
                                         <span class="price">$228</span>
                                     </div>
                                 </div>
+                                </a>
                             </li>
                             <li class="card-container col-xl-4 col-md-6 m-b30">
+                                <a href="product_details.php">
                                 <div class="dz-img-box style-7">
                                     <div class="dz-media">
                                         <img src="assets/images/shop/2.png" alt="/">
@@ -92,8 +102,10 @@
                                         <span class="price">$500</span>
                                     </div>
                                 </div>
+                                </a>
                             </li>
                             <li class="card-container col-xl-4 col-md-6 m-b30">
+                                <a href="product_details.php">
                                 <div class="dz-img-box style-7">
                                     <div class="dz-media">
                                         <img src="assets/images/shop/1.png" alt="/">
@@ -103,6 +115,7 @@
                                         <span class="price">$100</span>
                                     </div>
                                 </div>
+                                </a>
                             </li>
                         </ul>
                     </div>

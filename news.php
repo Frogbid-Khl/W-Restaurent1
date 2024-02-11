@@ -22,10 +22,10 @@
 
     <div class="page-content bg-white">
         <!-- Banner  -->
-        <div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/news/1.jpg'); background-size:contain; background-position:center;">
-            <div class="container">
-                <div class="dz-bnr-inr-entry">
-
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <img src="assets/images/news/1.jpg" alt="" class="img-fluid">
                 </div>
             </div>
         </div>

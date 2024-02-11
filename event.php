@@ -37,10 +37,10 @@
     ?>
     <!-- Header -->
     <!-- Banner  -->
-    <div class="dz-bnr-inr style-1 text-center bg-parallax" style="background-image:url('assets/images/event/1.jpg'); background-size:contain; background-position:center;">
-        <div class="container">
-            <div class="dz-bnr-inr-entry">
-                <h1 class="m-lg-t80"></h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <img src="assets/images/event/1.jpg" alt="" class="img-fluid">
             </div>
         </div>
     </div>
@@ -118,6 +118,12 @@
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                             <label class="form-check-label" for="flexCheckChecked">
                                 Social and Celebration
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Wedding
                             </label>
                         </div>
                     </div>
