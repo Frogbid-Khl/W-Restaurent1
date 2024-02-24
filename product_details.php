@@ -32,8 +32,8 @@
         }
 
         .thumbnail {
-            width: 80px;
-            height: 60px;
+            width: 160px;
+            height: 120px;
             margin-right: 10px;
             cursor: pointer;
         }
