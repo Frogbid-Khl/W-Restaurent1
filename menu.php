@@ -47,10 +47,10 @@
             <div class="col-12">
                 <img class="img-fluid" src="assets/images/menu/1.jpg" alt="">
             </div>
-            <div class="col-4">
+            <div class="col-2">
                 <img class="img-fluid" src="assets/images/logo/logo.jpg" alt="">
             </div>
-            <div class="col-4">
+            <div class="col-2">
                 <img class="img-fluid" src="assets/images/logo/logo.1.jpg" alt="">
             </div>
         </div>

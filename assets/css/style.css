@@ -17155,6 +17155,8 @@ section {
     width: 100%;
     position: relative;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+    align-items: center;
+    justify-content: center;
 }
 
 .site-header .container {
@@ -35068,6 +35070,13 @@ pre {
     z-index: 1;
     position: relative;
     border-radius: 30px;
+    border: 30px solid transparent; /* Set a solid border with the desired width */
+    border-image-source: url('../images/background/pic1.png'); /* Specify the path to your image */
+    border-image-slice: 30 fill; /* Adjust slice values as needed */
+    border-image-width: 30px; /* Adjust border width */
+    border-image-outset: 0; /* Adjust outset as needed */
+    border-image-repeat: stretch; /* Adjust repeat behavior as needed */
+    background: none; /* Ensure no background */
 }
 
 .section-wrapper-5::after {
@@ -35076,10 +35085,10 @@ pre {
     top: 0;
     left: 0;
     backdrop-filter: blur(6px);
-    background-color: rgb(21 21 21 / 30%);
     width: 100%;
     height: 100%;
     z-index: -1;
+    background-color: #fff;
 }
 
 @media only screen and (max-width: 1480px) {

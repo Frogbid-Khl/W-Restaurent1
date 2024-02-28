@@ -11,7 +11,6 @@
                                         <img src="assets/images/logo2.png" alt="/">
                                     </a>
                                 </div>
-                                <p class="text-white mb-0 font-14">Pak Loh Chiu Chow Restaurant, an award-winning pioneer in Chiu Chow cuisine with over 50 years of history</p>
                             </div>
                         </div>
                     </div>

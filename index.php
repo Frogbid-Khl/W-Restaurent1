@@ -123,7 +123,7 @@
                                     <img src="assets/images/gallery/new/2.jpg" alt="/">
                                     <div class="row">
                                         <div class="col-12" style="background-color: #2b515c;">
-                                            <h3 class="category text-white">Tea</h3>
+                                            <h3 class="category text-white" style="margin-top: 8px;">Tea</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -136,7 +136,7 @@
                                     <img src="assets/images/gallery/new/3.jpg" alt="/">
                                     <div class="row">
                                         <div class="col-12" style="background-color: #2b515c;">
-                                            <h3 class="category text-white">Package</h3>
+                                            <h3 class="category text-white" style="margin-top: 8px;">Package</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -148,7 +148,7 @@
                                     <img src="assets/images/gallery/new/1.jpg" alt="/">
                                     <div class="row">
                                         <div class="col-12" style="background-color: #2b515c;">
-                                            <h3 class="category text-white">XO Sauce</h3>
+                                            <h3 class="category text-white" style="margin-top: 8px;">XO Sauce</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -214,10 +214,10 @@
         <!-- Chef Details end-->
 
         <!--Today's Special-->
-        <section class="section-wrapper-5 content-inner overflow-hidden bg-parallax" style="background-image:url('assets/images/background/pic1.png'); background-attachment: fixed;">
+        <section class="section-wrapper-5 content-inner overflow-hidden bg-parallax">
             <div class="container-fluid">
                 <div class="section-head text-center">
-                    <h2 class="title text-white wow flipInX" data-wow-delay="0.2s" data-wow-delay="2s">Seasonal Special</h2>
+                    <h2 class="title text-white wow flipInX" data-wow-delay="0.2s" data-wow-delay="2s" style="color: #000000 !important;">Seasonal Special</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">

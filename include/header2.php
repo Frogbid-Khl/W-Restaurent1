@@ -3,12 +3,11 @@
     <div class="sticky-header main-bar-wraper navbar-expand-lg">
         <div class="main-bar clearfix ">
             <div class="container-fluid clearfix">
-
                 <!-- Website Logo -->
                 <div class="logo-header mostion">
                     <a href="index.php" class="anim-logo"><img src="assets/images/logo.png" alt="/"></a>
                     <a href="pak-loh.php" class="anim-logo"><img src="assets/images/logo/logo1.png" alt="/"></a>
-                    <a href="moon-lok.php" class="anim-logo"><img src="assets/images/logo/logo3.png" alt="/" style="margin-left: 20px;"></a>
+                    <a href="moon-lok.php" class="anim-logo"><img src="assets/images/logo/logo3.png" alt="/"></a>
                 </div>
 
                 <!-- Nav Toggle Button -->
@@ -21,7 +20,7 @@
                 </button>
 
                 <!-- Header Nav -->
-                <div class="header-nav navbar-collapse collapse justify-content-center" id="navbarNavDropdown">
+                <div class="header-nav navbar-collapse collapse justify-content-center" style="padding-top: 40px;" id="navbarNavDropdown">
                     <div class="logo-header">
                         <a href="index.php" class="anim-logo"><img src="assets/images/logo.png" alt="/"></a>
                     </div>
