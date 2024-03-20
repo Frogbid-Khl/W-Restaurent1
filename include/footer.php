@@ -21,11 +21,11 @@
                         <div class="widget widget_services">
                             <ul>
                                 <li><a href="index.php"><span>Home</span></a></li>
+                                <li><a href="menu.php"><span>Menu</span></a></li>
                                 <li><a href="event.php"><span>Event & Catering</span></a></li>
                                 <li><a href="news.php"><span>Food & Culture</span></a></li>
                                 <li><a href="shop.php"><span>Eshop</span></a></li>
                                 <li><a href="contact-us.php"><span>Location</span></a></li>
-                                <li><a href="#"><span>Restaurants</span></a></li>
                             </ul>
                         </div>
                     </div>

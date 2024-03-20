@@ -61,53 +61,21 @@
 
     <div class="page-content bg-white">
         <!-- Banner -->
-        <div class="container" style="padding: 0 !important">
-        <div class="main-bnr-three overflow-hidden top-space">
-            <div class="main-slider-3">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <a href="pak-loh.php">
-                            <div class="banner-inner overflow-hidden" data-swiper-parallax="-10" data-swiper-parallax-duration="0.5" style="background-image:url('assets/images/main-slider/slider2/bg2.jpg'); background-size:cover;">
-                                <div class="container">
-                                    <div class="row align-items-center" data-swiper-parallax="-100">
-                                        <div class="col-xl-7 col-lg-7 col-md-8">
-                                            <div class="banner-content">
-                                                <h1 class="title text-white" style="font-weight: bold">PAK LOH CHIU CHOW </h1>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-5 col-lg-5 col-md-4">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="moon-lok.php">
-                            <div class="banner-inner overflow-hidden" data-swiper-parallax="-10" data-swiper-parallax-duration="0.5" style="background-image:url('assets/images/main-slider/slider2/bg1.jpg'); background-size:cover;">
-                                <div class="container">
-                                    <div class="row align-items-center" data-swiper-parallax="-100">
-                                        <div class="col-xl-7 col-lg-7 col-md-8">
-                                            <div class="banner-content">
-                                                <h1 class="title text-white" style="font-weight: bold">MOON LOK CHIU CHOW </h1>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-5 col-lg-5 col-md-4">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
         <!--Banner-->
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-12">
 
+                </div>
+            </div>
+        </div>
+        <div class="container" style="padding: 0 !important; margin-top: 200px">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img src="assets/images/main-slider/slider2/bg2.jpg" class="img-fluid">
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="assets/images/main-slider/slider2/bg1.jpg" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -164,10 +132,6 @@
             <div class="container  mt-3">
                 <div class="row">
                     <div class="col-12">
-                        <div class="team-bio">
-                            <h4 class="m-b10">Biography</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-                        </div>
                         <div class="row">
                             <div class="col-xl-12 col-lg-12 m-b10">
                                 <h4 class="m-b15">Signature Dish</h4>
