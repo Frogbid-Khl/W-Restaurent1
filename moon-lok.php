@@ -15,8 +15,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
     <style>
+        .slide {
+            flex-shrink: 0; /* Prevent images from shrinking */
+        }
+
         .slide img {
-            width: 1000px; /* Adjust the width to fit 5 images */
+            width: 210px; /* Use 100% width for images inside each slide */
             height: auto;
             animation: scroll 20s linear infinite;
         }
@@ -262,6 +266,51 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="container mt-5">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h3>Awards</h3>
+                </div>
+            </div>
+            <div class="slider1">
+                <div class="slide-track1">
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/3.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/4.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/5.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/6.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/7.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <div class="container mt-5">
             <div class="row text-center">
                 <div class="col-12">
@@ -344,14 +393,14 @@ include('include/js.php')
         speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true, // Add autoplay option
-        autoplaySpeed: 3000, // Set autoplay speed to 3 seconds
+        autoplay: true,
+        autoplaySpeed: 3000,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToShow: 5,
+                    slidesToScroll: 5,
                     infinite: true,
                     dots: true
                 }
@@ -359,15 +408,15 @@ include('include/js.php')
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 3,
+                    slidesToScroll: 3
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 3,
+                    slidesToScroll: 3
                 }
             }
         ]

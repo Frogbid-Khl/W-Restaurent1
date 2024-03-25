@@ -15,8 +15,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
     <style>
+        .slide {
+            flex-shrink: 0; /* Prevent images from shrinking */
+        }
+
         .slide img {
-            width: 100%;
+            width: 210px; /* Use 100% width for images inside each slide */
             height: auto;
             animation: scroll 20s linear infinite;
         }
@@ -24,17 +28,21 @@
         .slide-track1 {
             width: 100%;
             display: flex;
-            gap: 2em;
+            gap: 1em;
             overflow: hidden;
         }
 
         .slider1 {
-            padding: 0 2em;
+            padding: 0 1em;
         }
 
         @keyframes scroll {
-            0% {transform: translateX(0);}
-            100% {transform: translatex(-1000%)}
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translatex(-1000%)
+            }
         }
     </style>
 </head>
@@ -338,14 +346,14 @@ include('include/js.php')
         speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true, // Add autoplay option
-        autoplaySpeed: 3000, // Set autoplay speed to 3 seconds
+        autoplay: true,
+        autoplaySpeed: 3000,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToShow: 5,
+                    slidesToScroll: 5,
                     infinite: true,
                     dots: true
                 }
@@ -353,15 +361,15 @@ include('include/js.php')
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 3,
+                    slidesToScroll: 3
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 3,
+                    slidesToScroll: 3
                 }
             }
         ]
