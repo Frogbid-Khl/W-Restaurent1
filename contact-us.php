@@ -18,7 +18,7 @@
 
     <div class="page-content bg-white">
         <!-- Banner  -->
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-12">
                     <img src="assets/images/contact/01.jpg" alt="" class="img-fluid">

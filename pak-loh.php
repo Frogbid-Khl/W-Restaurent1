@@ -70,10 +70,10 @@
         </div>
         <div class="container">
             <div class="row d-flex align-items-center justify-content-center">
-                <div class="col-12 col-lg-3">
+                <div class="col-12 col-lg-2">
                     <img class="img-fluid" src="assets/images/logo/logo.jpg" alt="">
                 </div>
-                <div class="col-12 col-lg-9">
+                <div class="col-12 col-lg-10">
                     <p>Pak Loh Chiu Chow, a pioneer in ChiuChow cuisine, has been serving loyal customers for over 55
                         years since the establishment of their first restaurant in Causeway Bay in 1967. Proving
                         exquisite dining ambience, freshness and friendly service. Compared to the majority of Chinese
@@ -81,47 +81,6 @@
                         cooked with less oil. From the time of its first opening, Pak Loh Chiu Chow now has a number of
                         branches situated in Hong Kong.
                     </p>
-                </div>
-            </div>
-        </div>
-        <div class="container mt-5">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h3>Awards</h3>
-                </div>
-            </div>
-            <div class="slider1">
-                <div class="slide-track1">
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/2.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/3.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/4.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/5.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/6.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/7.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/2.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/3.png" alt="">
-                    </div>
                 </div>
             </div>
         </div>
@@ -297,7 +256,47 @@
                 </div>
             </div>
         </div>
-
+        <div class="container mt-5">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h3>Awards</h3>
+                </div>
+            </div>
+            <div class="slider1">
+                <div class="slide-track1">
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/3.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/4.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/5.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/6.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/7.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <?php

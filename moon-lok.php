@@ -16,7 +16,7 @@
 
     <style>
         .slide img {
-            width: 300px; /* Adjust the width to fit 5 images */
+            width: 1000px; /* Adjust the width to fit 5 images */
             height: auto;
             animation: scroll 20s linear infinite;
         }
@@ -74,10 +74,10 @@
         </div>
         <div class="container">
             <div class="row d-flex align-items-center justify-content-center">
-                <div class="col-12 col-lg-3">
+                <div class="col-12 col-lg-2">
                     <img class="img-fluid" src="assets/images/logo/logo.1.jpg" alt="">
                 </div>
-                <div class="col-12 col-lg-9">
+                <div class="col-12 col-lg-10">
                     <p>Since opening its doors in 1967, Pak Loh Chiu Chow has withstood the test of time and continues
                         to serve its loyal customers authentic Chiu Chow food. Aside from the existing Pak Loh Chiu Chow
                         outlets under Buick Management Limited, they have since branched out to include Moon Lok Chiu
@@ -95,47 +95,6 @@
                         and delightful culinary experiences to all that visit our establishments.
 
                     </p>
-                </div>
-            </div>
-        </div>
-        <div class="container mt-5">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h3>Awards</h3>
-                </div>
-            </div>
-            <div class="slider1">
-                <div class="slide-track1">
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/2.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/3.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/4.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/5.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/6.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/7.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/2.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/3.png" alt="">
-                    </div>
                 </div>
             </div>
         </div>
@@ -300,6 +259,47 @@
                         popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                         and more recently with desktop publishing software like Aldus PageMaker including versions of
                         Lorem Ipsum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h3>Awards</h3>
+                </div>
+            </div>
+            <div class="slider1">
+                <div class="slide-track1">
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/3.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/4.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/5.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/6.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/7.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/restaurant/awards/3.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>

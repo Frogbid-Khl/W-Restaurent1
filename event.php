@@ -37,7 +37,7 @@
     ?>
     <!-- Header -->
     <!-- Banner  -->
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-12">
                 <img src="assets/images/event/1.jpg" alt="" class="img-fluid">
