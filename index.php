@@ -140,7 +140,7 @@
                                         <a href="#" class="gallery-link">
                                             <div class="gallery-box-1">
                                                 <img src="assets/images/gallery/grid5/pic1.jpg" alt="/">
-                                                <div class="overlay-text">Burned Giant Conch</div>
+                                                <div class="overlay-text">Poached Sliced Whelk with Ham</div>
                                             </div>
                                         </a>
                                     </li>
@@ -148,7 +148,7 @@
                                         <a href="#" class="gallery-link">
                                             <div class="gallery-box-1">
                                                 <img src="assets/images/gallery/grid5/pic5.jpg" alt="/">
-                                                <div class="overlay-text"></div>
+                                                <div class="overlay-text">Poached Sliced Whelk with Ham</div>
                                             </div>
                                         </a>
                                     </li>
@@ -188,6 +188,7 @@
                         <div class="">
                             <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic1.jpg" alt="/">
+                                <div class="overlay-text" style="font-size: 22px;">Crispy Noodle Rolls</div>
                             </div>
                         </div>
                     </div>
@@ -195,13 +196,15 @@
                         <div class="">
                             <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic2.jpg" alt="/">
+                                <div class="overlay-text" style="font-size: 22px;">Braised Pomelo Peel with Abalone - 6 Catty</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="">
-                            <div class="">
+                            <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic3.jpg" alt="/">
+                                <div class="overlay-text" style="font-size: 22px;">Chiu Chow Mixed Sweet Dumpling Soup</div>
                             </div>
                         </div>
                     </div>
@@ -209,6 +212,7 @@
                         <div class="">
                             <div class="dz-media">
                                 <img src="assets/images/gallery/grid3/pic4.jpg" alt="/">
+                                <div class="overlay-text" style="font-size: 22px;">Sauteed Prawn with Lily Bulbs and Preserved Olives</div>
                             </div>
                         </div>
                     </div>

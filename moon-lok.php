@@ -15,11 +15,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
     <style>
-        .slide {
+        .slide-old {
             flex-shrink: 0; /* Prevent images from shrinking */
         }
 
-        .slide img {
+        .slide-old img {
             width: 210px; /* Use 100% width for images inside each slide */
             height: auto;
             animation: scroll 20s linear infinite;
@@ -44,6 +44,31 @@
                 transform: translatex(-1000%)
             }
         }
+
+        .slider-container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease;
+            height: 550px;
+        }
+
+        .slider-item {
+            min-width: 100%;
+        }
+
+        .slider-item img {
+            display: block;
+        }
+        @media only screen and (max-width: 980px) {
+            .slider {
+                height: 250px;
+            }
+        }
     </style>
 </head>
 <body id="bg">
@@ -60,7 +85,6 @@
                 <div class="col-md-12">
                     <div class="overlay">
                     </div>
-                    <!-- Slider -->
                     <div class="responsive">
                         <div>
                             <img src="assets/images/restaurant/5.jpg" alt=""/>
@@ -72,13 +96,12 @@
                             <img src="assets/images/restaurant/4.jpg" alt=""/>
                         </div>
                     </div>
-                    <!-- control arrows -->
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row d-flex align-items-center justify-content-center">
-                <div class="col-12 col-lg-2">
+                <div class="col-6 col-lg-2">
                     <img class="img-fluid" src="assets/images/logo/logo.1.jpg" alt="">
                 </div>
                 <div class="col-12 col-lg-10">
@@ -276,83 +299,64 @@
             </div>
             <div class="slider1">
                 <div class="slide-track1">
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/1.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/2.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/3.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/4.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/5.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/6.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/7.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/1.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/2.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/3.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
-
 
         <div class="container mt-5">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h3>Awards</h3>
-                </div>
-            </div>
-            <div class="slider1">
-                <div class="slide-track1">
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/2.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/3.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/4.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/5.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/6.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/7.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/2.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="assets/images/restaurant/awards/3.png" alt="">
-                    </div>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slider-item img-fluid"><img src="assets/images/ML/1.jpg" alt="Image 1"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/ML/2.jpg" alt="Image 2"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/ML/3.jpg" alt="Image 3"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/ML/4.jpg" alt="Image 1"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/ML/5.jpg" alt="Image 2"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/ML/6.jpg" alt="Image 3"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/ML/7.jpg" alt="Image 1"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/ML/8.jpg" alt="Image 2"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/ML/9.jpg" alt="Image 3"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/ML/10.jpg" alt="Image 1"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/ML/11.jpg" alt="Image 2"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/ML/12.jpg" alt="Image 3"></div>
+                    <!-- Add more slider-items as needed -->
                 </div>
             </div>
         </div>
+
+
+
     </section>
+
 
     <?php
     include('include/footer.php')
@@ -363,6 +367,27 @@
 include('include/js.php')
 ?>
 <script>
+
+    const slider = document.querySelector('.slider');
+    let slides = document.querySelectorAll('.slider-item');
+    let index = 0;
+
+    function nextSlide() {
+        index++;
+        if (index === slides.length) {
+            index = 0;
+        }
+        updateSlider();
+    }
+
+    function updateSlider() {
+        slider.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    setInterval(nextSlide, 3000);
+    // Change slide every 3 seconds
+
+
     $(document).ready(function () {
         $('.image-link').magnificPopup({
             type: 'image',
@@ -408,15 +433,15 @@ include('include/js.php')
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3
+                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3
+                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
             }
         ]

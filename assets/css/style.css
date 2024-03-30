@@ -35065,18 +35065,18 @@ pre {
 }
 
 .section-wrapper-5 {
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
     z-index: 1;
     position: relative;
-    border-radius: 30px;
-    border: 30px solid transparent; /* Set a solid border with the desired width */
-    border-image-source: url('../images/background/pic1.png'); /* Specify the path to your image */
-    border-image-slice: 30 fill; /* Adjust slice values as needed */
-    border-image-width: 30px; /* Adjust border width */
-    border-image-outset: 0; /* Adjust outset as needed */
-    border-image-repeat: stretch; /* Adjust repeat behavior as needed */
-    background: none; /* Ensure no background */
+    /* border-radius: 30px; */
+    /* border: 30px solid transparent; */
+    /* border-image-source: url(../images/background/pic1.png); */
+    /* border-image-slice: 30 fill; */
+    /* border-image-width: 30px; */
+    /* border-image-outset: 0; */
+    /* border-image-repeat: stretch; */
+    /* background: none;*/
 }
 
 .section-wrapper-5::after {
@@ -35876,7 +35876,6 @@ pre {
 img {
     width: 100%;
     height: auto;
-    padding: 5px;
 }
 @media screen and (max-width: 800px) {
     .next {

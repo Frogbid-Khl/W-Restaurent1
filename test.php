@@ -4,42 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Slider</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <?php
+    include('include/header.php');
+    ?>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
-    <style>
-        @media (max-width: 767px) {
-            .carousel-inner .carousel-item > div {
-                display: none;
-            }
-            .carousel-inner .carousel-item > div:first-child {
-                display: block;
-            }
-        }
-
-        .carousel-inner .carousel-item.active,
-        .carousel-inner .carousel-item-next,
-        .carousel-inner .carousel-item-prev {
-            display: flex;
-        }
-
-        /* medium and up screens */
-        @media (min-width: 768px) {
-            .carousel-inner .carousel-item-end.active,
-            .carousel-inner .carousel-item-next {
-                transform: translateX(25%);
-            }
-
-            .carousel-inner .carousel-item-start.active,
-            .carousel-inner .carousel-item-prev {
-                transform: translateX(-25%);
-            }
-        }
-
-        .carousel-inner .carousel-item-end,
-        .carousel-inner .carousel-item-start {
-            transform: translateX(0);
-        }
-    </style>
 </head>
 <body>
 
