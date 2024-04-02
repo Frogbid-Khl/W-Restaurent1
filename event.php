@@ -8,6 +8,7 @@
     <?php
     include('include/header.php')
     ?>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <style>
         label {
             padding: 0;
@@ -160,7 +161,8 @@
                             <div class="input-group-prepand">
                                 <i class="flaticon-calendar-date"></i>
                             </div>
-                            <input name="dzEmail" required type="date" class="form-control">
+                            <!--<input name="dzEmail" required type="date" class="form-control">-->
+                            <input name="dzEmail" id="dzEmail" required type="text" class="form-control" placeholder="dd/mm/yy">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 m-b30 m-sm-b50 wow fadeInUp" data-wow-delay="0.2s">
@@ -171,7 +173,7 @@
                             <div class="input-group-prepand">
                                 <i class="flaticon-calendar-date"></i>
                             </div>
-                            <input name="dzEmail" required type="date" class="form-control">
+                            <input id="alterDate" name="dzEmail" required type="text" class="form-control" placeholder="dd/mm/yy">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 m-b30 m-sm-b50 wow fadeInUp" data-wow-delay="0.2s">
@@ -264,6 +266,30 @@
 <?php
 include('include/js.php')
 ?>
+
+<script>
+    $(function() {
+        // Initialize datepicker
+        $("#dzEmail").datepicker({
+            dateFormat: 'dd/mm/yy', // Set desired date format
+            showButtonPanel: true, // Show button panel
+            onClose: function(dateText, inst) {
+                $(this).focus();
+            }
+        });
+    });
+
+    $(function() {
+        // Initialize datepicker
+        $("#alterDate").datepicker({
+            dateFormat: 'dd/mm/yy', // Set desired date format
+            showButtonPanel: true, // Show button panel
+            onClose: function(dateText, inst) {
+                $(this).focus();
+            }
+        });
+    });
+</script>
 </body>
 
 </html>
