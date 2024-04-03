@@ -21,6 +21,8 @@
                         <div class="widget widget_services">
                             <ul>
                                 <li><a href="index.php"><span>Home</span></a></li>
+                                <li><a href="pak-loh.php"><span>Pak Loh</span></a></li>
+                                <li><a href="moon-lok.php"><span>Moon Lok</span></a></li>
                                 <li><a href="menu.php"><span>Menu</span></a></li>
                                 <li><a href="event.php"><span>Event & Catering</span></a></li>
                                 <li><a href="news.php"><span>Food & Culture</span></a></li>
