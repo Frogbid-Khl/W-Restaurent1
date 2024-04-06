@@ -15,11 +15,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
     <style>
-        .slide {
+        .slide-old {
             flex-shrink: 0; /* Prevent images from shrinking */
         }
 
-        .slide img {
+        .slide-old img {
             width: 210px; /* Use 100% width for images inside each slide */
             height: auto;
             animation: scroll 20s linear infinite;
@@ -42,6 +42,31 @@
             }
             100% {
                 transform: translatex(-1000%)
+            }
+        }
+
+        .slider-container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease;
+            height: 550px;
+        }
+
+        .slider-item {
+            min-width: 100%;
+        }
+
+        .slider-item img {
+            display: block;
+        }
+        @media only screen and (max-width: 980px) {
+            .slider {
+                height: 250px;
             }
         }
     </style>
@@ -98,6 +123,11 @@
                     <h3>Hysan</h3>
                 </div>
             </div>
+            <div class="row d-flex align-items-center justify-content-center mt-3 mb-3">
+                <div class="col-2 text-center">
+                    <a href="event.php" class="btn btn-primary">Reservation</a>
+                </div>
+            </div>
             <div class="row mt-3">
                 <div class="col-12 col-lg-4">
                     <a href="assets/images/restaurant/pak/6.jpg" class="image-link">
@@ -149,16 +179,16 @@
                     <!--<a href="event.php" class="btn btn-primary">Reservation</a>-->
                 </div>
             </div>
-            <div class="row d-flex align-items-center justify-content-center mt-3">
-                <div class="col-3">
-                    <a href="event.php" class="btn btn-primary">Reservation</a>
-                </div>
-            </div>
         </div>
         <div class="container mt-5">
             <div class="row text-center">
                 <div class="col-12">
                     <h3>Times Square</h3>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center mt-3 mb-3">
+                <div class="col-3 text-center">
+                    <a href="event.php" class="btn btn-primary">Reservation</a>
                 </div>
             </div>
             <div class="row">
@@ -212,16 +242,16 @@
                     <!--<a href="event.php" class="btn btn-primary">Reservation</a>-->
                 </div>
             </div>
-            <div class="row d-flex align-items-center justify-content-center mt-3">
-                <div class="col-3">
-                    <a href="event.php" class="btn btn-primary">Reservation</a>
-                </div>
-            </div>
         </div>
         <div class="container mt-5">
             <div class="row text-center">
                 <div class="col-12">
                     <h3>Elements</h3>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center mt-3 mb-3">
+                <div class="col-3 text-center">
+                    <a href="event.php" class="btn btn-primary">Reservation</a>
                 </div>
             </div>
             <div class="row">
@@ -275,11 +305,6 @@
                     <!-- <a href="contact-us.php" class="btn btn-primary">Contact Us</a>-->
                 </div>
             </div>
-            <div class="row d-flex align-items-center justify-content-center mt-3">
-                <div class="col-3">
-                    <a href="event.php" class="btn btn-primary">Reservation</a>
-                </div>
-            </div>
         </div>
         <div class="container mt-5">
             <div class="row text-center">
@@ -289,39 +314,109 @@
             </div>
             <div class="slider1">
                 <div class="slide-track1">
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/1.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/2.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/3.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/4.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/5.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/6.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/7.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/1.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/2.png" alt="">
                     </div>
-                    <div class="slide">
+                    <div class="slide-old">
                         <img src="assets/images/restaurant/awards/3.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/restaurant/awards/4.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/restaurant/awards/5.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="container mt-5">
+            <div class="slider1">
+                <div class="slide-track1">
+                    <div class="slide-old">
+                        <img src="assets/images/PL/1.jpg" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/PL/2.jpg" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/PL/3.jpg" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/PL/4.jpg" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/PL/5.jpg" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/PL/6.jpg" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/PL/7.jpg" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/PL/8.jpg" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/PL/9.jpg" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/PL/10.jpg" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/PL/11.jpg" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/PL/12.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--<div class="container mt-5">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slider-item img-fluid"><img src="assets/images/PL/1.jpg" alt="Image 1"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/PL/2.jpg" alt="Image 2"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/PL/3.jpg" alt="Image 3"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/PL/4.jpg" alt="Image 1"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/PL/5.jpg" alt="Image 2"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/PL/6.jpg" alt="Image 3"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/PL/7.jpg" alt="Image 1"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/PL/8.jpg" alt="Image 2"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/PL/9.jpg" alt="Image 3"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/PL/10.jpg" alt="Image 1"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/PL/11.jpg" alt="Image 2"></div>
+                    <div class="slider-item img-fluid"><img src="assets/images/PL/12.jpg" alt="Image 3"></div>
+                </div>
+            </div>
+        </div>-->
+
     </section>
 
     <?php
@@ -333,6 +428,25 @@
 include('include/js.php')
 ?>
 <script>
+
+    const slider = document.querySelector('.slider');
+    let slides = document.querySelectorAll('.slider-item');
+    let index = 0;
+
+    function nextSlide() {
+        index++;
+        if (index === slides.length) {
+            index = 0;
+        }
+        updateSlider();
+    }
+
+    function updateSlider() {
+        slider.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    setInterval(nextSlide, 3000);
+    // Change slide every 3 seconds
     $(document).ready(function() {
         $('.image-link').magnificPopup({
             type: 'image',

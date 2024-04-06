@@ -133,6 +133,11 @@
                     <h3>Mira</h3>
                 </div>
             </div>
+            <div class="row d-flex align-items-center justify-content-center mt-3 mb-3">
+                <div class="col-3 d-flex align-items-center justify-content-center">
+                    <a href="event.php" class="btn btn-primary">Reservation</a>
+                </div>
+            </div>
             <div class="row mt-3">
                 <div class="col-12 col-lg-4">
                     <a href="assets/images/restaurant/moon/6.jpg" class="image-link">
@@ -184,16 +189,16 @@
                     <!--<a href="event.php" class="btn btn-primary">Reservation</a>-->
                 </div>
             </div>
-            <div class="row d-flex align-items-center justify-content-center mt-3">
-                <div class="col-3 d-flex align-items-center justify-content-center">
-                    <a href="event.php" class="btn btn-primary">Reservation</a>
-                </div>
-            </div>
         </div>
         <div class="container mt-5">
             <div class="row text-center">
                 <div class="col-12">
                     <h3>Citygate</h3>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center mt-3 mb-3">
+                <div class="col-3 d-flex align-items-center justify-content-center">
+                    <a href="event.php" class="btn btn-primary">Reservation</a>
                 </div>
             </div>
             <div class="row">
@@ -228,16 +233,16 @@
                     </a>
                 </div>
             </div>
-            <div class="row d-flex align-items-center justify-content-center mt-3">
-                <div class="col-3 d-flex align-items-center justify-content-center">
-                    <a href="event.php" class="btn btn-primary">Reservation</a>
-                </div>
-            </div>
         </div>
         <div class="container mt-5">
             <div class="row text-center">
                 <div class="col-12">
                     <h3>Shenzhen</h3>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center mt-3 mb-3">
+                <div class="col-3 d-flex align-items-center justify-content-center">
+                    <a href="event.php" class="btn btn-primary">Reservation</a>
                 </div>
             </div>
             <div class="row">
@@ -329,11 +334,60 @@
                     <div class="slide-old">
                         <img src="assets/images/restaurant/awards/3.png" alt="">
                     </div>
+                    <div class="slide-old">
+                        <img src="assets/images/restaurant/awards/4.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/restaurant/awards/5.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="container mt-5">
+            <div class="slider1">
+                <div class="slide-track1">
+                    <div class="slide-old">
+                        <img src="assets/images/ML/1.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/ML/2.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/ML/3.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/ML/4.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/ML/5.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/ML/6.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/ML/7.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/ML/8.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/ML/9.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/ML/10.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/ML/11.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/ML/12.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="container mt-5">
             <div class="slider-container">
                 <div class="slider">
                     <div class="slider-item img-fluid"><img src="assets/images/ML/1.jpg" alt="Image 1"></div>
@@ -348,10 +402,9 @@
                     <div class="slider-item img-fluid"><img src="assets/images/ML/10.jpg" alt="Image 1"></div>
                     <div class="slider-item img-fluid"><img src="assets/images/ML/11.jpg" alt="Image 2"></div>
                     <div class="slider-item img-fluid"><img src="assets/images/ML/12.jpg" alt="Image 3"></div>
-                    <!-- Add more slider-items as needed -->
                 </div>
             </div>
-        </div>
+        </div>-->
 
 
 
@@ -367,6 +420,7 @@
 include('include/js.php')
 ?>
 <script>
+
 
     const slider = document.querySelector('.slider');
     let slides = document.querySelectorAll('.slider-item');
