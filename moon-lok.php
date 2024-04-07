@@ -340,6 +340,15 @@
                     <div class="slide-old">
                         <img src="assets/images/restaurant/awards/5.png" alt="">
                     </div>
+                    <div class="slide-old">
+                        <img src="assets/images/restaurant/awards/6.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/restaurant/awards/7.png" alt="">
+                    </div>
+                    <div class="slide-old">
+                        <img src="assets/images/restaurant/awards/1.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -348,40 +357,79 @@
             <div class="slider1">
                 <div class="slide-track1">
                     <div class="slide-old">
-                        <img src="assets/images/ML/1.png" alt="">
+                        <a href="assets/images/ML/big/1.jpg" class="image-link">
+                            <img src="assets/images/ML/1.png" alt="" class="img-fluid">
+                        </a>
                     </div>
                     <div class="slide-old">
-                        <img src="assets/images/ML/2.png" alt="">
+                        <a href="assets/images/ML/big/2.jpg" class="image-link">
+                            <img src="assets/images/ML/2.png" alt="" class="img-fluid">
+                        </a>
                     </div>
                     <div class="slide-old">
-                        <img src="assets/images/ML/3.png" alt="">
+                        <a href="assets/images/ML/big/3.jpg" class="image-link">
+                            <img src="assets/images/ML/3.png" alt="" class="img-fluid">
+                        </a>
                     </div>
                     <div class="slide-old">
-                        <img src="assets/images/ML/4.png" alt="">
+                        <a href="assets/images/ML/big/4.jpg" class="image-link">
+                            <img src="assets/images/ML/4.png" alt="" class="img-fluid">
+                        </a>
                     </div>
                     <div class="slide-old">
-                        <img src="assets/images/ML/5.png" alt="">
+                        <a href="assets/images/ML/big/5.jpg" class="image-link">
+                            <img src="assets/images/ML/5.png" alt="" class="img-fluid">
+                        </a>
                     </div>
                     <div class="slide-old">
-                        <img src="assets/images/ML/6.png" alt="">
+                        <a href="assets/images/ML/big/6.jpg" class="image-link">
+                            <img src="assets/images/ML/6.png" alt="" class="img-fluid">
+                        </a>
                     </div>
                     <div class="slide-old">
-                        <img src="assets/images/ML/7.png" alt="">
+                        <a href="assets/images/ML/big/7.jpg" class="image-link">
+                            <img src="assets/images/ML/7.png" alt="" class="img-fluid">
+                        </a>
                     </div>
                     <div class="slide-old">
-                        <img src="assets/images/ML/8.png" alt="">
+                        <a href="assets/images/ML/big/8.jpg" class="image-link">
+                            <img src="assets/images/ML/8.png" alt="" class="img-fluid">
+                        </a>
                     </div>
                     <div class="slide-old">
-                        <img src="assets/images/ML/9.png" alt="">
+                        <a href="assets/images/ML/big/9.jpg" class="image-link">
+                            <img src="assets/images/ML/9.png" alt="" class="img-fluid">
+                        </a>
                     </div>
                     <div class="slide-old">
-                        <img src="assets/images/ML/10.png" alt="">
+                        <a href="assets/images/ML/big/10.jpg" class="image-link">
+                            <img src="assets/images/ML/10.png" alt="" class="img-fluid">
+                        </a>
                     </div>
                     <div class="slide-old">
-                        <img src="assets/images/ML/11.png" alt="">
+                        <a href="assets/images/ML/big/11.jpg" class="image-link">
+                            <img src="assets/images/ML/11.png" alt="" class="img-fluid">
+                        </a>
                     </div>
                     <div class="slide-old">
-                        <img src="assets/images/ML/12.png" alt="">
+                        <a href="assets/images/ML/big/12.jpg" class="image-link">
+                            <img src="assets/images/ML/12.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="slide-old">
+                        <a href="assets/images/ML/big/1.jpg" class="image-link">
+                            <img src="assets/images/ML/1.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="slide-old">
+                        <a href="assets/images/ML/big/2.jpg" class="image-link">
+                            <img src="assets/images/ML/2.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="slide-old">
+                        <a href="assets/images/ML/big/3.jpg" class="image-link">
+                            <img src="assets/images/ML/3.png" alt="" class="img-fluid">
+                        </a>
                     </div>
                 </div>
             </div>
