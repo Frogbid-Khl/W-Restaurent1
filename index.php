@@ -182,7 +182,7 @@
                                         <a href="#" class="gallery-link">
                                             <div class="gallery-box-1">
                                                 <img src="assets/images/gallery/grid5/pic5.jpg" alt="/">
-                                                <div class="overlay-text">Poached Sliced Whelk with Ham</div>
+                                                <div class="overlay-text">Pan-fried Baby Oysters Omelette </div>
                                             </div>
                                         </a>
                                     </li>

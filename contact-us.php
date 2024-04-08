@@ -31,11 +31,10 @@
         <section class="section-wrapper-8 content-inner-1">
             <div class="container">
                 <div class="row mt-3">
-                    <div class="col-6 col-lg-3 text-center">
-                        <img src="assets/images/logo/logo.jpg" style="height: 250px; width: auto;">
-                        <h3>創自六七</h3>
+                    <div class="col-12 col-lg-3 text-center">
+                        <img src="assets/images/logo/logo.jpg" style="height: 206px; width: auto;">
                     </div>
-                    <div class="col-6 col-lg-9">
+                    <div class="col-12 col-lg-9">
                         <h3>Hysan</h3>
                         <ul style="line-height: 40px; font-size: 20px;">
                             <li><i class="fa-solid fa-house"></i> G/F, 23-25 Hysan Avenue, Causeway Bay</li>
@@ -46,9 +45,9 @@
                     </div>
                 </div>
                 <div class="row mt-3">
-                    <div class="col-6 col-lg-3 text-center">
+                    <div class="col-12 col-lg-3 text-center">
                     </div>
-                    <div class="col-6 col-lg-9">
+                    <div class="col-12 col-lg-9">
                         <h3>Times Square</h3>
                         <ul style="line-height: 40px; font-size: 20px;">
                             <li><i class="fa-solid fa-house"></i> Shop 1002, 10/F, Times Square, 1 Matheson Street,Causeway Bay </li>
@@ -62,7 +61,7 @@
                     <div class="col-6 col-lg-3 text-center">
 
                     </div>
-                    <div class="col-6 col-lg-9">
+                    <div class="col-12 col-lg-9">
                         <h3>Pak Loh Chiu Chow (Elements)</h3>
                         <ul style="line-height: 40px; font-size: 20px;">
                             <li><i class="fa-solid fa-house"></i> Shop 1028D, 1/F, Water Zone, ELEMENTS, 1 Austin Road West, Tsim Sha Tsui</li>
@@ -72,11 +71,11 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row mt-3">
-                    <div class="col-6 col-lg-3 text-center">
-                        <img src="assets/images/logo/logo.1.jpg" style="height: 250px; width: auto;">
+                <div class="row mt-5">
+                    <div class="col-12 col-lg-3 text-center">
+                        <img src="assets/images/logo/logo.1.jpg" style="height: 205px; width: auto;">
                     </div>
-                    <div class="col-6 col-lg-9">
+                    <div class="col-12 col-lg-9">
                         <h3>Moon Lok Chiu Chow (Mira)</h3>
                         <ul style="line-height: 40px; font-size: 20px;">
                             <li><i class="fa-solid fa-house"></i> Shop 405, 4/F, FoodLoft, Mira Place 1, 132 Nathan  Road, Tsim Sha Tsui</li>
@@ -90,7 +89,7 @@
                     <div class="col-6 col-lg-3">
 
                     </div>
-                    <div class="col-6 col-lg-9">
+                    <div class="col-12 col-lg-9">
                         <h3>Moon Lok Chiu Chow (Citygate)</h3>
                         <ul style="line-height: 40px; font-size: 20px;">
                             <li><i class="fa-solid fa-house"></i> Shop 22, G/F, Citygate Outlets, 20 Tat Tung Road, Tung Chung</li>
@@ -104,7 +103,7 @@
                     <div class="col-6 col-lg-3 text-center">
 
                     </div>
-                    <div class="col-6 col-lg-9" id="contact-form">
+                    <div class="col-12 col-lg-9" id="contact-form">
                         <h3>Moon Lok Chiu Chow (Shenzhen)</h3>
                         <ul style="line-height: 40px; font-size: 20px;">
                             <li><i class="fa-solid fa-house"></i> 5001 Huanggang Road, Shenzhen Upper Hills (South District), Lianhua First Village Community, Huafu Street, Futian District</li>

@@ -13616,7 +13616,10 @@ h3, .h3,
 @media only screen and (max-width: 575px) {
     h3, .h3,
     .h3 {
-        font-size: 1.5625rem;
+        font-size: 0.8rem;
+    }
+    .r-title {
+        font-size: 1.6rem !important;
     }
 }
 

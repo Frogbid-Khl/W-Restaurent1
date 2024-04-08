@@ -177,6 +177,9 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 m-b30 m-sm-b50 wow fadeInUp" data-wow-delay="0.2s">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Number of Guests
+                        </label>
                         <div class="input-group input-line">
                             <div class="input-group-prepand">
                                 <i class="flaticon-two-people"></i>
@@ -186,12 +189,15 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 m-b30 m-sm-b50 wow fadeInUp" data-wow-delay="0.2s">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            If you'd like us to call you, what is the most suitable time?
+                        </label>
                         <div class="input-group input-line">
                             <div class="input-group-prepand">
                                 <i class="flaticon-clock"></i>
                             </div>
                             <input name="dzEmail" required type="text" class="form-control"
-                                   placeholder="If you'd like us to call you, what is the most suitable time?">
+                                   placeholder="Time">
                         </div>
                     </div>
                     <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.2s">

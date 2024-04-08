@@ -15,6 +15,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
     <style>
+        p{
+            text-align: justify;
+        }
         .slide-old {
             flex-shrink: 0; /* Prevent images from shrinking */
         }
@@ -63,11 +66,6 @@
 
         .slider-item img {
             display: block;
-        }
-        @media only screen and (max-width: 980px) {
-            .slider {
-                height: 250px;
-            }
         }
     </style>
 </head>
@@ -118,13 +116,15 @@
             </div>
         </div>
         <div class="container mt-5">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h3>Hysan</h3>
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-12 col-lg-8">
+                    <h3 class="r-title">Hysan</h3>
                 </div>
             </div>
-            <div class="row d-flex align-items-center justify-content-center mt-3 mb-3">
-                <div class="col-2 text-center">
+            <div class="row mt-3 mb-3">
+                <div class="col-lg-4"></div>
+                <div class="col-2">
                     <a href="event.php" class="btn btn-primary">Reservation</a>
                 </div>
             </div>
@@ -279,6 +279,10 @@
                         but also the leap into electronic typesetting, remaining essentially unchanged. It was
                         popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                         and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
                         Lorem Ipsum.</p>
                    <!-- <a href="event.php" class="btn btn-primary">Reservation</a>-->
                 </div>
@@ -301,7 +305,13 @@
                         but also the leap into electronic typesetting, remaining essentially unchanged. It was
                         popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                         and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.</p>
+                        Lorem Ipsum. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
                     <!-- <a href="contact-us.php" class="btn btn-primary">Contact Us</a>-->
                 </div>
             </div>
